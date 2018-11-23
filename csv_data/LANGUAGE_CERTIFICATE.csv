@@ -1,0 +1,112 @@
+UID,Univ_name,Type,Language_id,Requisite
+1,Instituto Tecnologico de Buenos Aires,CEFR,ES,B1
+2,University of New South Wales,IELTS,EN,6.5
+2,University of New South Wales,iBT-TOEFL,EN,90
+3,University of Queensland,iBT-TOEFL,EN,87
+3,University of Queensland,IELTS,EN,6.5
+5,University of Sydney,iBT-TOEFL,EN,85
+6,Monash University,iBT-TOEFL,EN,83
+6,Monash University,IELTS,EN,6.5
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],CEFR,EN,B2
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],iBT-TOEFL,EN,80
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],CEFR,FR,B2
+8,Universiti Brunei Darussalam,iBT-TOEFL,EN,83
+8,Universiti Brunei Darussalam,IELTS,EN,6.5
+9,University of Waterloo,iBT-TOEFL,EN,90
+9,University of Waterloo,IELTS,EN,6.5
+10,University of Toronto,iBT-TOEFL,EN,89
+11,Charles University in Prague,CEFR,EN,B2
+11,Charles University in Prague,iBT-TOEFL,EN,72
+11,Charles University in Prague,TOEIC,EN,785
+12,Czech Technical University in Prague,CEFR,EN,B2
+12,Czech Technical University in Prague,iBT-TOEFL,EN,90
+13,Technical University of Denmark (DTU),IELTS,EN,6.5
+13,Technical University of Denmark (DTU),iBT-TOEFL,EN,88
+14,"Aalto University (technical schools (the School of Chemical Technology, the School of Electrical Engineering, the School of Engineering, and the School of Science))",IELTS,EN,6.5
+14,"Aalto University (technical schools (the School of Chemical Technology, the School of Electrical Engineering, the School of Engineering, and the School of Science))",iBT-TOEFL,EN,92
+15,"Aalto University (Aalto Arts (New Media Design and Production, Collaborative and Industrial Design, Product and Spatial Design))",IELTS,EN,6.5
+15,"Aalto University (Aalto Arts (New Media Design and Production, Collaborative and Industrial Design, Product and Spatial Design))",iBT-TOEFL,EN,92
+16,Tampere University of Technology (TUT),CEFR,EN,B2
+16,Tampere University of Technology (TUT),TOEIC,EN,785
+17,Ecole Polytechnique,CEFR,FR,B1
+17,Ecole Polytechnique,CEFR,EN,B1
+18,Arts Et Metiers ParisTech (ENSAM),CEFR,FR,B1
+19,Ecole Nationale Supérieure des Mines de Saint-Etienne (EMSE),CEFR,EN,B1
+20,EFREI - Engineering School of Inforationa and Digital Technologies,iBT-TOEFL,EN,85
+20,EFREI - Engineering School of Inforationa and Digital Technologies,IELTS,EN,6.5
+20,EFREI - Engineering School of Inforationa and Digital Technologies,TOEIC,EN,750
+20,EFREI - Engineering School of Inforationa and Digital Technologies,CEFR,FR,A1
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),CEFR,FR,B1
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),CEFR,EN,B2
+22,INSA Strasbourg,CEFR,FR,B1
+23,INSA Toulouse,CEFR,FR,B1
+24,INSA Rennes,CEFR,FR,A1
+24,INSA Rennes,CEFR,EN,B1
+25,NEOMA Business School (Rouen Campus),CEFR,FR,B2
+25,NEOMA Business School (Rouen Campus),TEF,FR,500
+25,NEOMA Business School (Rouen Campus),CEFR,EN,B2
+25,NEOMA Business School (Rouen Campus),iBT-TOEFL,EN,85
+25,NEOMA Business School (Rouen Campus),IELTS,EN,6
+26,IMT Atlantique (Telecom de Bretagne),CEFR,FR,B1
+26,IMT Atlantique (Telecom de Bretagne),CEFR,EN,B2
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),CEFR,FR,B2
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),CEFR,EN,B2
+28,University of Technology at Belfort-Montbéliard (UTBM),CEFR,EN,B2
+30,Sorbonne Universite (University Pierre and Marie Curie),CEFR,FR,B1
+31,Hochschule Furtwangen University(HFU),CEFR,EN,B1
+32,Karlsruhe Institute of Technology (KIT),CEFR,DE,A2
+33,RWTH Aachen University,CEFR,EN,B1
+33,RWTH Aachen University,CEFR,DE,B1
+38,University of Stuttgart,CEFR,DE,A2
+38,University of Stuttgart,CEFR,EN,B1
+39,The University of Hong Kong,iBT-TOEFL,EN,93
+39,The University of Hong Kong,IELTS,EN,6.5
+42,City University of Hong Kong,iBT-TOEFL,EN,83
+42,City University of Hong Kong,IELTS,EN,6.5
+45,Budapest University of Technology and Economics,CEFR,EN,B2
+47,Polytechnic University of Torino,IELTS,EN,5
+48,University of Trento,CEFR,EN,B2
+48,University of Trento,CEFR,IT,A2
+49,Kyoto University,iBT-TOEFL,EN,83
+49,Kyoto University,IELTS,EN,6.5
+49,Kyoto University,JLPT,JP,N1
+50,Tokyo Institute of Technology,JLPT,JP,N1
+51,Hokkaido University,iBT-TOEFL,EN,83
+51,Hokkaido University,IELTS,EN,6.5
+52,Tohoku University,iBT-TOEFL,EN,83
+52,Tohoku University,JLPT,JP,N1
+53,Kyushu University,PBT-TOEFL,EN,550
+53,Kyushu University,iBT-TOEFL,EN,83
+53,Kyushu University,IELTS,EN,6.5
+54,TU Delft (Delft University of Technology),iBT-TOEFL,EN,90
+54,TU Delft (Delft University of Technology),IELTS,EN,6.5
+55,University of Twente,IELTS,EN,6
+55,University of Twente,iBT-TOEFL,EN,80
+55,University of Twente,TOEIC,EN,790
+56,Warsaw University of Technology,CEFR,EN,B2
+56,Warsaw University of Technology,iBT-TOEFL,EN,87
+56,Warsaw University of Technology,TOEIC,EN,700
+62,Lund University,IELTS,EN,6.5
+62,Lund University,iBT-TOEFL,EN,90
+63,Uppsala University,CEFR,EN,B2
+64,École Polytechnique Fédérale de Lausanne (EPFL),CEFR,EN,B2
+64,École Polytechnique Fédérale de Lausanne (EPFL),CEFR,FR,B2
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),iBT-TOEFL,EN,80
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),CEFR,EN,B2
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),IELTS,EN,5.5
+68,Cardiff University,IELTS,EN,6.5
+68,Cardiff University,iBT-TOEFL,EN,90
+69,University of Southampton,IELTS,EN,6.5
+69,University of Southampton,iBT-TOEFL,EN,92
+70,University of Leeds,IELTS,EN,6.5
+70,University of Leeds,iBT-TOEFL,EN,87
+71,Drexel University,iBT-TOEFL,EN,83
+71,Drexel University,IELTS,EN,6.5
+72,State University of New York at Stony Brook,iBT-TOEFL,EN,83
+72,State University of New York at Stony Brook,IELTS,EN,6.5
+73,Northeastern University,iBT-TOEFL,EN,92
+73,Northeastern University,IELTS,EN,6.5
+74,Georgia Institute of Technology,iBT-TOEFL,EN,95
+74,Georgia Institute of Technology,IELTS,EN,7
+75,Rice University,iBT-TOEFL,EN,100
+75,Rice University,IELTS,EN,7

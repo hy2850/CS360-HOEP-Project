@@ -1,0 +1,742 @@
+UID,Univ_name,DID,KAIST_dept,Univ_track
+1,Instituto Tecnologico de Buenos Aires,2,Department of Bio and Brain Engineering,Bioengineering
+1,Instituto Tecnologico de Buenos Aires,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+1,Instituto Tecnologico de Buenos Aires,15,School of Computing,Computer Science
+1,Instituto Tecnologico de Buenos Aires,16,School of Electrical Engineering,Electrical and Electronic Engineering
+1,Instituto Tecnologico de Buenos Aires,14,School of Business and Technology Management,Finance
+1,Instituto Tecnologico de Buenos Aires,7,Department of Industrial & Systems Engineering,Industrial Engineering
+1,Instituto Tecnologico de Buenos Aires,10,Department of Mathematical Sciences,Mathematics
+1,Instituto Tecnologico de Buenos Aires,11,Department of Mechanical Engineering,Mechanical Engineering
+1,Instituto Tecnologico de Buenos Aires,13,Department of Physics,Physics
+2,University of New South Wales,2,Department of Bio and Brain Engineering,Biomedical Engineering
+2,University of New South Wales,3,Department of Biological Sciences,Biology
+2,University of New South Wales,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+2,University of New South Wales,5,Department of Chemistry,Chemistry
+2,University of New South Wales,6,Department of Civil and Environmental Engineering,Civil Engineering
+2,University of New South Wales,15,School of Computing,Computer Engineering
+2,University of New South Wales,15,School of Computing,Computer Science
+2,University of New South Wales,16,School of Electrical Engineering,Electrical Engineering
+2,University of New South Wales,6,Department of Civil and Environmental Engineering,Environmental Engineering
+2,University of New South Wales,8,Department of Industrial Design,Industrial Design
+2,University of New South Wales,10,Department of Mathematical Sciences,Mathematics
+2,University of New South Wales,11,Department of Mechanical Engineering,Mechanical Engineering
+2,University of New South Wales,13,Department of Physics,Physics
+2,University of New South Wales,7,Department of Industrial & Systems Engineering,Production Engineering
+3,University of Queensland,3,Department of Biological Sciences,Biological and Life Sciences
+3,University of Queensland,2,Department of Bio and Brain Engineering,Biomedical Engineering
+3,University of Queensland,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+3,University of Queensland,6,Department of Civil and Environmental Engineering,Civil Engineering
+3,University of Queensland,16,School of Electrical Engineering,Electrical Engineering
+3,University of Queensland,6,Department of Civil and Environmental Engineering,Environmental Engineering
+3,University of Queensland,11,Department of Mechanical Engineering,Mechanical Engineering
+4,RMIT(Royal Melbourne Institute of Technology),1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
+4,RMIT(Royal Melbourne Institute of Technology),6,Department of Civil and Environmental Engineering,Architecture
+4,RMIT(Royal Melbourne Institute of Technology),2,Department of Bio and Brain Engineering,Biotechnology
+4,RMIT(Royal Melbourne Institute of Technology),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+4,RMIT(Royal Melbourne Institute of Technology),6,Department of Civil and Environmental Engineering,Civil Engineering
+4,RMIT(Royal Melbourne Institute of Technology),15,School of Computing,Computer Engineering
+4,RMIT(Royal Melbourne Institute of Technology),15,School of Computing,Computer Science
+4,RMIT(Royal Melbourne Institute of Technology),8,Department of Industrial Design,Design
+4,RMIT(Royal Melbourne Institute of Technology),16,School of Electrical Engineering,Electrical Engineering
+4,RMIT(Royal Melbourne Institute of Technology),11,Department of Mechanical Engineering,Mechanical Engineering
+4,RMIT(Royal Melbourne Institute of Technology),7,Department of Industrial & Systems Engineering,Production Engineering
+5,University of Sydney,1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
+5,University of Sydney,4,Department of Chemical and Biomolecular Engineering,Biochemistry
+5,University of Sydney,3,Department of Biological Sciences,Biological and Life Sciences
+5,University of Sydney,14,School of Business and Technology Management,Business Administration
+5,University of Sydney,14,School of Business and Technology Management,Business and Commerce
+5,University of Sydney,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+5,University of Sydney,5,Department of Chemistry,Chemistry
+5,University of Sydney,6,Department of Civil and Environmental Engineering,Civil Engineering
+5,University of Sydney,15,School of Computing,Computer Science
+5,University of Sydney,16,School of Electrical Engineering,Electrical Engineering
+5,University of Sydney,6,Department of Civil and Environmental Engineering,Environmental Engineering
+5,University of Sydney,6,Department of Civil and Environmental Engineering,Industrial Management
+5,University of Sydney,10,Department of Mathematical Sciences,Mathematics
+5,University of Sydney,11,Department of Mechanical Engineering,Mechanical Engineering
+5,University of Sydney,12,Department of Nuclear and Quantum Engineering,Nuclear Physics
+5,University of Sydney,13,Department of Physics,Physics
+5,University of Sydney,6,Department of Civil and Environmental Engineering,Structural Architecture
+6,Monash University,14,School of Business and Technology Management,Management
+6,Monash University,1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
+6,Monash University,2,Department of Bio and Brain Engineering,Bioengineering
+6,Monash University,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+6,Monash University,6,Department of Civil and Environmental Engineering,Civil Engineering
+6,Monash University,15,School of Computing,Computer Engineering
+6,Monash University,16,School of Electrical Engineering,Electrical Engineering
+6,Monash University,9,Department of Materials Science & Engineering,Materials Engineering
+6,Monash University,11,Department of Mechanical Engineering,Mechanical Engineering
+6,Monash University,15,School of Computing,Computer Science
+6,Monash University,3,Department of Biological Sciences,Biological and Life Sciences
+6,Monash University,5,Department of Chemistry,Chemistry
+6,Monash University,10,Department of Mathematical Sciences,Mathematics
+6,Monash University,13,Department of Physics,Physics
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],3,Department of Biological Sciences,Biological and Life Sciences
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],3,Department of Biological Sciences,Biology
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],14,School of Business and Technology Management,Business Administration
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],5,Department of Chemistry,Chemistry
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],6,Department of Civil and Environmental Engineering,Civil Engineering
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],15,School of Computing,Computer Engineering
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],16,School of Electrical Engineering,Electrical Engineering
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],9,Department of Materials Science & Engineering,Materials Engineering
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],10,Department of Mathematical Sciences,Mathematics
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],11,Department of Mechanical Engineering,Mechanical Engineering
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],13,Department of Physics,Physics
+8,Universiti Brunei Darussalam,3,Department of Biological Sciences,Biological and Life Sciences
+8,Universiti Brunei Darussalam,5,Department of Chemistry,Chemical Engineering
+8,Universiti Brunei Darussalam,5,Department of Chemistry,Chemistry
+8,Universiti Brunei Darussalam,15,School of Computing,Computer Science
+8,Universiti Brunei Darussalam,7,Department of Industrial & Systems Engineering,Industrial Engineering
+8,Universiti Brunei Darussalam,10,Department of Mathematical Sciences,Mathematics
+8,Universiti Brunei Darussalam,13,Department of Physics,Physics
+8,Universiti Brunei Darussalam,7,Department of Industrial & Systems Engineering,Production Engineering
+9,University of Waterloo,2,Department of Bio and Brain Engineering,Biomedical Engineering
+9,University of Waterloo,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+9,University of Waterloo,6,Department of Civil and Environmental Engineering,Civil Engineering
+9,University of Waterloo,15,School of Computing,Computer Engineering
+9,University of Waterloo,16,School of Electrical Engineering,Electrical Engineering
+9,University of Waterloo,14,School of Business and Technology Management,Management
+9,University of Waterloo,11,Department of Mechanical Engineering,Mechanical Engineering
+9,University of Waterloo,15,School of Computing,Software Engineering
+9,University of Waterloo,8,Department of Industrial Design,Design
+9,University of Waterloo,10,Department of Mathematical Sciences,Mathematics
+9,University of Waterloo,3,Department of Biological Sciences,Biology
+9,University of Waterloo,5,Department of Chemistry,Chemistry
+9,University of Waterloo,13,Department of Physics,Physics
+10,University of Toronto,1,Department of Aerospace Engineering,Astronomy and Space Scienc
+10,University of Toronto,4,Department of Chemical and Biomolecular Engineering,Biochemistry
+10,University of Toronto,3,Department of Biological Sciences,Biology
+10,University of Toronto,14,School of Business and Technology Management,Business and Commerce
+10,University of Toronto,5,Department of Chemistry,Chemistry
+10,University of Toronto,15,School of Computing,Computer Science
+10,University of Toronto,10,Department of Mathematical Sciences,Mathematics
+10,University of Toronto,13,Department of Physics,Mathematical Physics
+11,Charles University in Prague,4,Department of Chemical and Biomolecular Engineering,Biochemistry
+11,Charles University in Prague,3,Department of Biological Sciences,Biology
+11,Charles University in Prague,15,School of Computing,Computer Science
+11,Charles University in Prague,10,Department of Mathematical Sciences,Mathematics
+11,Charles University in Prague,12,Department of Nuclear and Quantum Engineering,Nuclear Physics
+11,Charles University in Prague,13,Department of Physics,Physics
+11,Charles University in Prague,10,Department of Mathematical Sciences,Statistics
+12,Czech Technical University in Prague,1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
+12,Czech Technical University in Prague,4,Department of Chemical and Biomolecular Engineering,Biochemistry
+12,Czech Technical University in Prague,2,Department of Bio and Brain Engineering,Biomedical Engineering
+12,Czech Technical University in Prague,6,Department of Civil and Environmental Engineering,Civil Engineering
+12,Czech Technical University in Prague,15,School of Computing,Computer Engineering
+12,Czech Technical University in Prague,16,School of Electrical Engineering,Electrical Engineering
+12,Czech Technical University in Prague,10,Department of Mathematical Sciences,Mathematics
+12,Czech Technical University in Prague,12,Department of Nuclear and Quantum Engineering,Nuclear Engineering
+12,Czech Technical University in Prague,13,Department of Physics,Physics
+12,Czech Technical University in Prague,7,Department of Industrial & Systems Engineering,Production Engineering
+12,Czech Technical University in Prague,15,School of Computing,"Software Engineering,"
+13,Technical University of Denmark (DTU),1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
+13,Technical University of Denmark (DTU),2,Department of Bio and Brain Engineering,Bioengineering
+13,Technical University of Denmark (DTU),3,Department of Biological Sciences,"Biological and Life Sciences,"
+13,Technical University of Denmark (DTU),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+13,Technical University of Denmark (DTU),5,Department of Chemistry,Chemistry
+13,Technical University of Denmark (DTU),6,Department of Civil and Environmental Engineering,Civil Engineering
+13,Technical University of Denmark (DTU),15,School of Computing,Computer Science
+13,Technical University of Denmark (DTU),16,School of Electrical Engineering,Electrical Engineering
+13,Technical University of Denmark (DTU),7,Department of Industrial & Systems Engineering,Industrial Management
+13,Technical University of Denmark (DTU),11,Department of Mechanical Engineering,Mechanical Engineering
+13,Technical University of Denmark (DTU),13,Department of Physics,Physics
+14,Aalto University (technical schools),2,Department of Bio and Brain Engineering,Biomedical Engineering
+14,Aalto University (technical schools),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+14,Aalto University (technical schools),5,Department of Chemistry,Chemistry
+14,Aalto University (technical schools),6,Department of Civil and Environmental Engineering,Civil Engineering
+14,Aalto University (technical schools),15,School of Computing,Computer Engineering
+14,Aalto University (technical schools),16,School of Electrical Engineering,Electrical Engineering
+14,Aalto University (technical schools),7,Department of Industrial & Systems Engineering,Industrial Management
+14,Aalto University (technical schools),14,School of Business and Technology Management,Management Systems
+14,Aalto University (technical schools),9,Department of Materials Science & Engineering,Materials Engineering
+14,Aalto University (technical schools),10,Department of Mathematical Sciences,Mathematics
+14,Aalto University (technical schools),13,Department of Physics,Physics
+15,Aalto University (Aalto Arts),8,Department of Industrial Design,Industrial Design
+16,Tampere University of Technology (TUT),6,Department of Civil and Environmental Engineering,Civil Engineering
+16,Tampere University of Technology (TUT),2,Department of Bio and Brain Engineering,Biomedical Engineering
+16,Tampere University of Technology (TUT),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+16,Tampere University of Technology (TUT),15,School of Computing,Computer Engineering
+16,Tampere University of Technology (TUT),16,School of Electrical Engineering,Electrical Engineering
+16,Tampere University of Technology (TUT),7,Department of Industrial & Systems Engineering,Industrial Management
+16,Tampere University of Technology (TUT),9,Department of Materials Science & Engineering,Materials Engineering
+16,Tampere University of Technology (TUT),10,Department of Mathematical Sciences,Mathematics
+16,Tampere University of Technology (TUT),11,Department of Mechanical Engineering,Mechanical Engineering
+16,Tampere University of Technology (TUT),13,Department of Physics,Physics
+16,Tampere University of Technology (TUT),7,Department of Industrial & Systems Engineering,Production Engineering
+17,Ecole Polytechnique,3,Department of Biological Sciences,Biology
+17,Ecole Polytechnique,5,Department of Chemistry,Chemistry
+17,Ecole Polytechnique,15,School of Computing,Computer Science
+17,Ecole Polytechnique,10,Department of Mathematical Sciences,Mathematics
+17,Ecole Polytechnique,11,Department of Mechanical Engineering,Mechanical Engineering
+17,Ecole Polytechnique,13,Department of Physics,Physics
+17,Ecole Polytechnique,12,Department of Nuclear and Quantum Engineering,Nuclear Physics
+18,Arts Et Metiers ParisTech (ENSAM),9,Department of Materials Science & Engineering,Materials and Processes
+18,Arts Et Metiers ParisTech (ENSAM),11,Department of Mechanical Engineering,Mechanical Engineering and Industrial Engineering
+19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),16,School of Electrical Engineering,Electronic Engineering
+19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),9,Department of Materials Science & Engineering,Materials Engineering
+19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),11,Department of Mechanical Engineering,Mechanical Engineering
+19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),15,School of Computing,Computer Science
+19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),7,Department of Industrial & Systems Engineering,Industrial Engineering
+19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),15,School of Computing,Software Engineering
+20,EFREI - Engineering School of Inforationa and Digital Technologies,16,School of Electrical Engineering,Electronic Engineering
+20,EFREI - Engineering School of Inforationa and Digital Technologies,15,School of Computing,Mathematics and Computer Science
+20,EFREI - Engineering School of Inforationa and Digital Technologies,13,Department of Physics,Physics
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),15,School of Computing,Computer Networks
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),10,Department of Mathematical Sciences,Applied Mathematics
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),15,School of Computing,Computer Science
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),7,Department of Industrial & Systems Engineering,Industrial Engineering
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),9,Department of Materials Science & Engineering,Materials Engineering
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),13,Department of Physics,Applied Physics
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),16,School of Electrical Engineering,Electronic Engineering
+22,INSA Strasbourg,6,Department of Civil and Environmental Engineering,Civil Engineering
+22,INSA Strasbourg,16,School of Electrical Engineering,Electrical Engineering
+22,INSA Strasbourg,13,Department of Physics,Physics
+22,INSA Strasbourg,11,Department of Mechanical Engineering,Mechanical Engineering
+23,INSA Toulouse,2,Department of Bio and Brain Engineering,Bioengineering
+23,INSA Toulouse,3,Department of Biological Sciences,Biological and Life Sciences
+23,INSA Toulouse,5,Department of Chemistry,Chemistry
+23,INSA Toulouse,6,Department of Civil and Environmental Engineering,Construction Engineering
+23,INSA Toulouse,15,School of Computing,Computer Engineering
+23,INSA Toulouse,10,Department of Mathematical Sciences,Mathematics
+23,INSA Toulouse,11,Department of Mechanical Engineering,Mechanical Engineering
+23,INSA Toulouse,13,Department of Physics,Physical Engineering
+23,INSA Toulouse,7,Department of Industrial & Systems Engineering,Industrial Engineering
+23,INSA Toulouse,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+23,INSA Toulouse,9,Department of Materials Science & Engineering,Materials Engineering
+24,INSA Rennes,6,Department of Civil and Environmental Engineering,Construction Engineering
+24,INSA Rennes,15,School of Computing,Software Engineering
+24,INSA Rennes,16,School of Electrical Engineering,Electronic Engineering
+24,INSA Rennes,10,Department of Mathematical Sciences,Mathematics
+24,INSA Rennes,9,Department of Materials Science & Engineering,Materials Engineering
+24,INSA Rennes,11,Department of Mechanical Engineering,Mechanical Engineering
+24,INSA Rennes,7,Department of Industrial & Systems Engineering,Production Engineering
+25,NEOMA Business School (Rouen Campus),14,School of Business and Technology Management,Business Administration
+26,IMT Atlantique (Telecom de Bretagne),15,School of Computing,Computer Engineering
+26,IMT Atlantique (Telecom de Bretagne),16,School of Electrical Engineering,Electronic Engineering
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),15,School of Computing,Computer Engineering
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),16,School of Electrical Engineering,Electronic Engineering
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),7,Department of Industrial & Systems Engineering,Industrial Engineering
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),12,Department of Nuclear and Quantum Engineering,Nuclear Engineering
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),9,Department of Materials Science & Engineering,Polymer and Plastics Technology
+28,University of Technology at Belfort-Montbeliard (UTBM),15,School of Computing,Computer Engineering
+28,University of Technology at Belfort-Montbeliard (UTBM),16,School of Electrical Engineering,Electronic Engineering
+28,University of Technology at Belfort-Montbeliard (UTBM),7,Department of Industrial & Systems Engineering,Industrial Engineering
+28,University of Technology at Belfort-Montbeliard (UTBM),11,Department of Mechanical Engineering,Mechanical Engineering
+29,University of Technology of Troyes (UTT),15,School of Computing,Computer Engineering
+29,University of Technology of Troyes (UTT),11,Department of Mechanical Engineering,Mechanical Engineering
+29,University of Technology of Troyes (UTT),9,Department of Materials Science & Engineering,Materials Engineering
+30,Sorbonne Universite (University Pierre and Marie Curie),15,School of Computing,Computer Science
+30,Sorbonne Universite (University Pierre and Marie Curie),3,Department of Biological Sciences,Biological and Life Sciences
+30,Sorbonne Universite (University Pierre and Marie Curie),5,Department of Chemistry,Chemistry
+30,Sorbonne Universite (University Pierre and Marie Curie),10,Department of Mathematical Sciences,Mathematics
+30,Sorbonne Universite (University Pierre and Marie Curie),11,Department of Mechanical Engineering,Mechanics
+30,Sorbonne Universite (University Pierre and Marie Curie),13,Department of Physics,Physics
+31,Hochschule Furtwangen University(HFU),15,School of Computing,Computer Engineering
+31,Hochschule Furtwangen University(HFU),16,School of Electrical Engineering,Electrical Engineering
+31,Hochschule Furtwangen University(HFU),3,Department of Biological Sciences,Biological and Life Sciences
+31,Hochschule Furtwangen University(HFU),5,Department of Chemistry,Chemistry
+31,Hochschule Furtwangen University(HFU),10,Department of Mathematical Sciences,Mathematics
+31,Hochschule Furtwangen University(HFU),11,Department of Mechanical Engineering,Mechanics
+31,Hochschule Furtwangen University(HFU),13,Department of Physics,Physics
+31,Hochschule Furtwangen University(HFU),14,School of Business and Technology Management,Business Administration
+31,Hochschule Furtwangen University(HFU),7,Department of Industrial & Systems Engineering,Production Engineering
+31,Hochschule Furtwangen University(HFU),2,Department of Bio and Brain Engineering,Biomedical Engineering
+31,Hochschule Furtwangen University(HFU),11,Department of Mechanical Engineering,Mechanical Engineering
+32,Karlsruhe Institute of Technology (KIT),15,School of Computing,Computer Engineering
+32,Karlsruhe Institute of Technology (KIT),16,School of Electrical Engineering,Electrical Engineering
+32,Karlsruhe Institute of Technology (KIT),3,Department of Biological Sciences,Biology
+32,Karlsruhe Institute of Technology (KIT),5,Department of Chemistry,Chemistry
+32,Karlsruhe Institute of Technology (KIT),10,Department of Mathematical Sciences,Mathematics
+32,Karlsruhe Institute of Technology (KIT),11,Department of Mechanical Engineering,Mechanical Engineering
+32,Karlsruhe Institute of Technology (KIT),13,Department of Physics,Physics
+32,Karlsruhe Institute of Technology (KIT),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+33,RWTH Aachen University,15,School of Computing,Computer Engineering
+33,RWTH Aachen University,16,School of Electrical Engineering,Electrical Engineering
+33,RWTH Aachen University,3,Department of Biological Sciences,Biology
+33,RWTH Aachen University,5,Department of Chemistry,Chemistry
+33,RWTH Aachen University,10,Department of Mathematical Sciences,Mathematics
+33,RWTH Aachen University,11,Department of Mechanical Engineering,Mechanical Engineering
+33,RWTH Aachen University,13,Department of Physics,Physics
+33,RWTH Aachen University,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+33,RWTH Aachen University,14,School of Business and Technology Management,Business Administration
+33,RWTH Aachen University,6,Department of Civil and Environmental Engineering,Civil Engineering
+33,RWTH Aachen University,2,Department of Bio and Brain Engineering,Biomedical Engineering
+33,RWTH Aachen University,9,Department of Materials Science & Engineering,Materials Engineering
+33,RWTH Aachen University,1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
+34,Technical University Munich (TUM),5,Department of Chemistry,Chemistry
+34,Technical University Munich (TUM),6,Department of Civil and Environmental Engineering,Civil Engineering
+34,Technical University Munich (TUM),16,School of Electrical Engineering,Electrical Engineering
+34,Technical University Munich (TUM),15,School of Computing,Computer Science
+34,Technical University Munich (TUM),13,Department of Physics,Mathematical Physics
+34,Technical University Munich (TUM),10,Department of Mathematical Sciences,Mathematics
+34,Technical University Munich (TUM),11,Department of Mechanical Engineering,Mechanical Engineering
+34,Technical University Munich (TUM),14,School of Business and Technology Management,Business Administration
+34,Technical University Munich (TUM),3,Department of Biological Sciences,Biological and Life Sciences
+35,Technical University of Berlin (TUB),5,Department of Chemistry,Chemistry
+35,Technical University of Berlin (TUB),16,School of Electrical Engineering,Electrical Engineering
+35,Technical University of Berlin (TUB),15,School of Computing,Computer Engineering
+35,Technical University of Berlin (TUB),13,Department of Physics,Mathematical Physics
+35,Technical University of Berlin (TUB),10,Department of Mathematical Sciences,Mathematics
+35,Technical University of Berlin (TUB),14,School of Business and Technology Management,Business Administration
+35,Technical University of Berlin (TUB),1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
+35,Technical University of Berlin (TUB),6,Department of Civil and Environmental Engineering,Architectural and Environmental Design
+36,Technical University of Dortmund (TUD),6,Department of Civil and Environmental Engineering,Architecture and Civil Engineering
+36,Technical University of Dortmund (TUD),4,Department of Chemical and Biomolecular Engineering,Biochemical and Chemical Engineering
+36,Technical University of Dortmund (TUD),5,Department of Chemistry,Chemistry and Chemical Biology
+36,Technical University of Dortmund (TUD),15,School of Computing,Computer Science
+36,Technical University of Dortmund (TUD),16,School of Electrical Engineering,Electrical Engineering and Information Technology
+36,Technical University of Dortmund (TUD),10,Department of Mathematical Sciences,Mathematics
+36,Technical University of Dortmund (TUD),11,Department of Mechanical Engineering,Mechanical Engineering
+36,Technical University of Dortmund (TUD),13,Department of Physics,Physics
+37,Technische Universität Darmstadt (TU Darmstadt),3,Department of Biological Sciences,Biology
+37,Technische Universität Darmstadt (TU Darmstadt),5,Department of Chemistry,Chemistry
+37,Technische Universität Darmstadt (TU Darmstadt),6,Department of Civil and Environmental Engineering,Civil and Enviromental Engineering
+37,Technische Universität Darmstadt (TU Darmstadt),15,School of Computing,Computer Science
+37,Technische Universität Darmstadt (TU Darmstadt),16,School of Electrical Engineering,Electrical Engineering and Information Technology
+37,Technische Universität Darmstadt (TU Darmstadt),10,Department of Mathematical Sciences,Mathematics
+37,Technische Universität Darmstadt (TU Darmstadt),11,Department of Mechanical Engineering,Mechanical Engineering
+37,Technische Universität Darmstadt (TU Darmstadt),13,Department of Physics,Physics
+38,University of Stuttgart,1,Department of Aerospace Engineering,Aerospace Engineering
+38,University of Stuttgart,6,Department of Civil and Environmental Engineering,Architecture and Urban Planning
+38,University of Stuttgart,5,Department of Chemistry,Chemistry
+38,University of Stuttgart,15,School of Computing,Computer Science
+38,University of Stuttgart,16,School of Electrical Engineering,Electrical Engineering and Information Technology
+38,University of Stuttgart,2,Department of Bio and Brain Engineering,Biological Engineering
+38,University of Stuttgart,7,Department of Industrial & Systems Engineering,Production Engineering
+38,University of Stuttgart,10,Department of Mathematical Sciences,Mathematics
+38,University of Stuttgart,13,Department of Physics,Physics
+39,The University of Hong Kong,6,Department of Civil and Environmental Engineering,Architecture
+39,The University of Hong Kong,2,Department of Bio and Brain Engineering,Biomedical Engineering
+39,The University of Hong Kong,16,School of Electrical Engineering,Electrical Engineering
+39,The University of Hong Kong,9,Department of Materials Science & Engineering,Materials Engineering
+39,The University of Hong Kong,11,Department of Mechanical Engineering,Mechanical Engineering
+39,The University of Hong Kong,13,Department of Physics,Physics
+40,HKUST(School of Science),13,Department of Physics,Physics
+40,HKUST(School of Science),3,Department of Biological Sciences,Biological and Life Sciences
+41,HKUST(School of Engineering),15,School of Computing,Computer Engineering
+41,HKUST(School of Engineering),16,School of Electrical Engineering,Electronic Engineering
+41,HKUST(School of Engineering),9,Department of Materials Science & Engineering,Materials Engineering
+41,HKUST(School of Engineering),6,Department of Civil and Environmental Engineering,Architecture
+42,City University of Hong Kong,5,Department of Chemistry,Biology and Chemistry
+42,City University of Hong Kong,3,Department of Biological Sciences,Biology and Chemistry
+42,City University of Hong Kong,6,Department of Civil and Environmental Engineering,Building Science and Technology
+42,City University of Hong Kong,15,School of Computing,Computer Science
+42,City University of Hong Kong,16,School of Electrical Engineering,Electronic Engineering
+42,City University of Hong Kong,14,School of Business and Technology Management,Management
+42,City University of Hong Kong,10,Department of Mathematical Sciences,Mathematics
+42,City University of Hong Kong,11,Department of Mechanical Engineering,Mechanical and Biomedical Engineering
+42,City University of Hong Kong,2,Department of Bio and Brain Engineering,Mechanical and Biomedical Engineering
+42,City University of Hong Kong,13,Department of Physics,Physics and Materials Science
+42,City University of Hong Kong,9,Department of Materials Science & Engineering,Physics and Materials Science
+43,The Hong Kong Polytechnic University,10,Department of Mathematical Sciences,Applied Mathematics
+43,The Hong Kong Polytechnic University,13,Department of Physics,Applied Physics
+43,The Hong Kong Polytechnic University,3,Department of Biological Sciences,Biology
+43,The Hong Kong Polytechnic University,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+43,The Hong Kong Polytechnic University,14,School of Business and Technology Management,Management
+43,The Hong Kong Polytechnic University,6,Department of Civil and Environmental Engineering,Construction and Environment
+43,The Hong Kong Polytechnic University,15,School of Computing,Computer Engineering
+43,The Hong Kong Polytechnic University,16,School of Electrical Engineering,Electrical Engineering
+43,The Hong Kong Polytechnic University,11,Department of Mechanical Engineering,Mechanical Engineering
+44,"The Chinese University of Hong Kong, Shenzen",14,School of Business and Technology Management,Business Administration
+44,"The Chinese University of Hong Kong, Shenzen",15,School of Computing,Computer Engineering
+44,"The Chinese University of Hong Kong, Shenzen",16,School of Electrical Engineering,Electronic Engineering
+44,"The Chinese University of Hong Kong, Shenzen",11,Department of Mechanical Engineering,Mechanical Engineering
+44,"The Chinese University of Hong Kong, Shenzen",3,Department of Biological Sciences,Biological and Life Sciences
+44,"The Chinese University of Hong Kong, Shenzen",5,Department of Chemistry,Chemistry
+44,"The Chinese University of Hong Kong, Shenzen",10,Department of Mathematical Sciences,Mathematics
+44,"The Chinese University of Hong Kong, Shenzen",13,Department of Physics,Physics
+45,Budapest University of Technology and Economics,6,Department of Civil and Environmental Engineering,Civil Engineering
+45,Budapest University of Technology and Economics,11,Department of Mechanical Engineering,Mechanical Engineering
+45,Budapest University of Technology and Economics,6,Department of Civil and Environmental Engineering,Architecture
+45,Budapest University of Technology and Economics,4,Department of Chemical and Biomolecular Engineering,Chemical Technology and Biotechnology
+45,Budapest University of Technology and Economics,16,School of Electrical Engineering,Electrical Engineering and Informatics
+45,Budapest University of Technology and Economics,11,Department of Mechanical Engineering,Transportation Engineering and Vehicle Engineering
+45,Budapest University of Technology and Economics,13,Department of Physics,Physics
+45,Budapest University of Technology and Economics,2,Department of Bio and Brain Engineering,Cognitive Science
+45,Budapest University of Technology and Economics,10,Department of Mathematical Sciences,Mathematics
+45,Budapest University of Technology and Economics,12,Department of Nuclear and Quantum Engineering,Nuclear Techniques
+46,Polytechnic University of Milan,1,Department of Aerospace Engineering,Aerospace Engineering
+46,Polytechnic University of Milan,6,Department of Civil and Environmental Engineering,Architectural Design
+46,Polytechnic University of Milan,11,Department of Mechanical Engineering,Automation Engineering
+46,Polytechnic University of Milan,2,Department of Bio and Brain Engineering,Biomedical Engineering
+46,Polytechnic University of Milan,6,Department of Civil and Environmental Engineering,Building and Construction Engineering
+46,Polytechnic University of Milan,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+46,Polytechnic University of Milan,6,Department of Civil and Environmental Engineering,Civil and Environmental Engineering
+46,Polytechnic University of Milan,16,School of Electrical Engineering,Electrical Engineering
+46,Polytechnic University of Milan,12,Department of Nuclear and Quantum Engineering,Energy Engineering
+46,Polytechnic University of Milan,16,School of Electrical Engineering,Engineering of Computing Systems
+46,Polytechnic University of Milan,6,Department of Civil and Environmental Engineering,Environmental and Land Planning Engineering
+46,Polytechnic University of Milan,7,Department of Industrial & Systems Engineering,Industrial Production Engineering
+46,Polytechnic University of Milan,7,Department of Industrial & Systems Engineering,Management and Production Engineering
+46,Polytechnic University of Milan,9,Department of Materials Science & Engineering,Materials and Nanotechnology Engineering
+46,Polytechnic University of Milan,10,Department of Mathematical Sciences,Mathematical Engineering
+46,Polytechnic University of Milan,11,Department of Mechanical Engineering,Mechanical Engineering
+46,Polytechnic University of Milan,13,Department of Physics,Physics Engineering
+46,Polytechnic University of Milan,8,Department of Industrial Design,Product Design
+46,Polytechnic University of Milan,6,Department of Civil and Environmental Engineering,"Urban Planning: Cities, Environment & Landscapes"
+47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,Architecture and Design
+47,Polytechnic University of Torino,16,School of Electrical Engineering,Control and Computer Engineering
+47,Polytechnic University of Torino,12,Department of Nuclear and Quantum Engineering,Energy
+47,Polytechnic University of Torino,16,School of Electrical Engineering,Electronics and Telecommunications
+47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,"Environment, Land and Infrastructure Engineering"
+47,Polytechnic University of Torino,7,Department of Industrial & Systems Engineering,Management and Production Engineering
+47,Polytechnic University of Torino,1,Department of Aerospace Engineering,Mechanical and Aerospace Engineering
+47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,"Structural, Geotechnical and Building Engineering"
+47,Polytechnic University of Torino,10,Department of Mathematical Sciences,Mathematical Sciences
+47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,Regional and Urban Studies and Planning
+48,University of Trento,14,School of Business and Technology Management,Economics and Management
+48,University of Trento,13,Department of Physics,Physics
+48,University of Trento,16,School of Electrical Engineering,Information Engineering and Computer Science
+48,University of Trento,7,Department of Industrial & Systems Engineering,Industrial Engineering
+48,University of Trento,10,Department of Mathematical Sciences,Mathematics
+48,University of Trento,2,Department of Bio and Brain Engineering,Psychology and Cognitive Science
+48,University of Trento,10,Department of Mathematical Sciences,"Mathematical, Physical and Natural Science"
+49,Kyoto University,14,School of Business and Technology Management,Economics
+49,Kyoto University,10,Department of Mathematical Sciences,Mathematics
+49,Kyoto University,13,Department of Physics,Physics and Astronomy
+49,Kyoto University,13,Department of Physics,Earth and Planetary Sciences
+49,Kyoto University,5,Department of Chemistry,Chemistry
+49,Kyoto University,3,Department of Biological Sciences,Biological Sciences
+49,Kyoto University,4,Department of Chemical and Biomolecular Engineering,Medicine
+49,Kyoto University,4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Sciences
+49,Kyoto University,6,Department of Civil and Environmental Engineering,Global Engineering
+49,Kyoto University,6,Department of Civil and Environmental Engineering,Architecture
+49,Kyoto University,16,School of Electrical Engineering,Electrical and Electronic Engineering
+49,Kyoto University,10,Department of Mathematical Sciences,Informatics and Mathematical Science
+49,Kyoto University,4,Department of Chemical and Biomolecular Engineering,Industrial Chemistry
+49,Kyoto University,3,Department of Biological Sciences,Agriculture
+50,Tokyo Institute of Technology,10,Department of Mathematical Sciences,Mathematics
+50,Tokyo Institute of Technology,13,Department of Physics,Physics
+50,Tokyo Institute of Technology,5,Department of Chemistry,Chemistry
+50,Tokyo Institute of Technology,13,Department of Physics,Earth and Planetary Sciences
+50,Tokyo Institute of Technology,11,Department of Mechanical Engineering,Mechanical Engineering
+50,Tokyo Institute of Technology,16,School of Electrical Engineering,Systems and Control Engineering
+50,Tokyo Institute of Technology,16,School of Electrical Engineering,Electrical and Electronic Engineering
+50,Tokyo Institute of Technology,16,School of Electrical Engineering,Information and Communications Engineering
+50,Tokyo Institute of Technology,7,Department of Industrial & Systems Engineering,Industrial Engineering and Economics
+50,Tokyo Institute of Technology,9,Department of Materials Science & Engineering,Materials Science and Engineering
+50,Tokyo Institute of Technology,4,Department of Chemical and Biomolecular Engineering,Chemical Science and Engineering
+50,Tokyo Institute of Technology,10,Department of Mathematical Sciences,Mathematical and Computing Science
+50,Tokyo Institute of Technology,15,School of Computing,Computer Science
+50,Tokyo Institute of Technology,3,Department of Biological Sciences,Life Science and Technology
+50,Tokyo Institute of Technology,6,Department of Civil and Environmental Engineering,Architecture and Building Engineering
+50,Tokyo Institute of Technology,6,Department of Civil and Environmental Engineering,Civil and Environmental Engineering
+51,Hokkaido University,10,Department of Mathematical Sciences,Mathematics
+51,Hokkaido University,13,Department of Physics,Physics
+51,Hokkaido University,5,Department of Chemistry,Chemistry
+51,Hokkaido University,3,Department of Biological Sciences,Biological Sciences
+51,Hokkaido University,13,Department of Physics,Earth and Planetary Sciences
+51,Hokkaido University,4,Department of Chemical and Biomolecular Engineering,Medicine
+51,Hokkaido University,4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Sciences and Pharmacy
+51,Hokkaido University,16,School of Electrical Engineering,Electronics and Information Engineering
+51,Hokkaido University,11,Department of Mechanical Engineering,Mechanical and Intelligent System Engineering
+51,Hokkaido University,3,Department of Biological Sciences,Agriculture
+52,Tohoku University,10,Department of Mathematical Sciences,Mathematics
+52,Tohoku University,13,Department of Physics,Physics
+52,Tohoku University,13,Department of Physics,Astronomy and Geophysics
+52,Tohoku University,5,Department of Chemistry,Chemistry
+52,Tohoku University,3,Department of Biological Sciences,Biology
+52,Tohoku University,3,Department of Biological Sciences,Medical Sciences
+52,Tohoku University,2,Department of Bio and Brain Engineering,Health Sciences
+52,Tohoku University,4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Sciences
+52,Tohoku University,1,Department of Aerospace Engineering,Mechanical and Aerospace Engineering
+52,Tohoku University,16,School of Electrical Engineering,"Electrical, Information and Physics Engineering"
+52,Tohoku University,4,Department of Chemical and Biomolecular Engineering,"Applied Chemistry, Chemical Engineering and Biomolecular Engineering"
+52,Tohoku University,9,Department of Materials Science & Engineering,Materials Science and Engineering
+52,Tohoku University,3,Department of Biological Sciences,Applied Bio-Sciences
+52,Tohoku University,4,Department of Chemical and Biomolecular Engineering,Applied Biological Chemistry
+53,Kyushu University,13,Department of Physics,Physics
+53,Kyushu University,5,Department of Chemistry,Chemistry
+53,Kyushu University,13,Department of Physics,Earth and Planetary Sciences
+53,Kyushu University,10,Department of Mathematical Sciences,Mathematics
+53,Kyushu University,3,Department of Biological Sciences,Biology
+53,Kyushu University,14,School of Business and Technology Management,Economics
+53,Kyushu University,4,Department of Chemical and Biomolecular Engineering,Medicine
+53,Kyushu University,4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Sciences
+53,Kyushu University,16,School of Electrical Engineering,Electrical Engineering and Computer Science
+53,Kyushu University,9,Department of Materials Science & Engineering,Materials Science and Engineering
+53,Kyushu University,6,Department of Civil and Environmental Engineering,"Earth Resources, Marine and Civil Engineering"
+53,Kyushu University,12,Department of Nuclear and Quantum Engineering,Energy Science and Engineering
+53,Kyushu University,1,Department of Aerospace Engineering,Mechanical and Aerospace Engineering
+53,Kyushu University,6,Department of Civil and Environmental Engineering,Architecture
+53,Kyushu University,8,Department of Industrial Design,Design
+53,Kyushu University,3,Department of Biological Sciences,Agriculture
+54,TU Delft (Delft University of Technology),6,Department of Civil and Environmental Engineering,Architecture and the Built Environment
+54,TU Delft (Delft University of Technology),6,Department of Civil and Environmental Engineering,Civil Engineering and Geosciences
+54,TU Delft (Delft University of Technology),10,Department of Mathematical Sciences,"Electrical Engineering, Mathematics & Computer Science"
+54,TU Delft (Delft University of Technology),7,Department of Industrial & Systems Engineering,Industrial Design Engineering
+54,TU Delft (Delft University of Technology),1,Department of Aerospace Engineering,Aerospace Engineering
+54,TU Delft (Delft University of Technology),14,School of Business and Technology Management,"Technology, Policy & Management"
+54,TU Delft (Delft University of Technology),2,Department of Bio and Brain Engineering,Life Science and Technology
+54,TU Delft (Delft University of Technology),4,Department of Chemical and Biomolecular Engineering,Molecular Science and Technology
+54,TU Delft (Delft University of Technology),4,Department of Chemical and Biomolecular Engineering,Nanobiology
+54,TU Delft (Delft University of Technology),11,Department of Mechanical Engineering,"Mechanical, Maritime and Materials Engineering"
+55,University of Twente,10,Department of Mathematical Sciences,Applied Mathematics
+55,University of Twente,13,Department of Physics,Applied Physics
+55,University of Twente,2,Department of Bio and Brain Engineering,Biomedical Technology
+55,University of Twente,14,School of Business and Technology Management,Business & IT
+55,University of Twente,4,Department of Chemical and Biomolecular Engineering,Chemical Science and Engineering
+55,University of Twente,6,Department of Civil and Environmental Engineering,Civil Engineering
+55,University of Twente,16,School of Electrical Engineering,Communication Science
+55,University of Twente,16,School of Electrical Engineering,Electrical Engineering
+55,University of Twente,2,Department of Bio and Brain Engineering,Health Sciences
+55,University of Twente,8,Department of Industrial Design,Industrial Design
+55,University of Twente,7,Department of Industrial & Systems Engineering,Industrual Engineering and Management
+55,University of Twente,11,Department of Mechanical Engineering,Mechanical Engineering
+55,University of Twente,15,School of Computing,Technical Computer Science
+55,University of Twente,4,Department of Chemical and Biomolecular Engineering,Technical Medicine
+56,Warsaw University of Technology,6,Department of Civil and Environmental Engineering,Architecture
+56,Warsaw University of Technology,16,School of Electrical Engineering,Automotive and Construction Machinary Engineering
+56,Warsaw University of Technology,4,Department of Chemical and Biomolecular Engineering,Chemical and Process Engineering
+56,Warsaw University of Technology,5,Department of Chemistry,Chemistry
+56,Warsaw University of Technology,6,Department of Civil and Environmental Engineering,Civil Engineering
+56,Warsaw University of Technology,16,School of Electrical Engineering,Electrical Engineering
+56,Warsaw University of Technology,16,School of Electrical Engineering,Electronics and Information Technology
+56,Warsaw University of Technology,6,Department of Civil and Environmental Engineering,"Building Services, Hydro and Environmental Engineering"
+56,Warsaw University of Technology,10,Department of Mathematical Sciences,Mathematics and Information Science
+56,Warsaw University of Technology,14,School of Business and Technology Management,Management
+56,Warsaw University of Technology,9,Department of Materials Science & Engineering,Materials Science and Engineering
+56,Warsaw University of Technology,11,Department of Mechanical Engineering,Mechatronics
+56,Warsaw University of Technology,13,Department of Physics,Physics
+56,Warsaw University of Technology,1,Department of Aerospace Engineering,Power and Aeronautical Engineering
+56,Warsaw University of Technology,7,Department of Industrial & Systems Engineering,Production Engineering
+57,NTU(Nanyang Technological University),1,Department of Aerospace Engineering,Aerospace Engineering
+57,NTU(Nanyang Technological University),2,Department of Bio and Brain Engineering,Bioengineering
+57,NTU(Nanyang Technological University),4,Department of Chemical and Biomolecular Engineering,Chemical & Biomolecular Engineering
+57,NTU(Nanyang Technological University),6,Department of Civil and Environmental Engineering,Civil Engineering
+57,NTU(Nanyang Technological University),16,School of Electrical Engineering,Computer Engineering
+57,NTU(Nanyang Technological University),15,School of Computing,Computer Science
+57,NTU(Nanyang Technological University),15,School of Computing,Data Science and Artificial Intelligence
+57,NTU(Nanyang Technological University),16,School of Electrical Engineering,Electrical & Electronic Engineering
+57,NTU(Nanyang Technological University),6,Department of Civil and Environmental Engineering,Environmental Engineering
+57,NTU(Nanyang Technological University),9,Department of Materials Science & Engineering,Materials Engineering
+57,NTU(Nanyang Technological University),11,Department of Mechanical Engineering,Mechanical Engineering
+57,NTU(Nanyang Technological University),4,Department of Chemical and Biomolecular Engineering,Medicine
+57,NTU(Nanyang Technological University),3,Department of Biological Sciences,Biological Sciences
+57,NTU(Nanyang Technological University),5,Department of Chemistry,Chemistry & Biological Chemistry
+57,NTU(Nanyang Technological University),10,Department of Mathematical Sciences,Mathematical Sciences
+57,NTU(Nanyang Technological University),13,Department of Physics,Physics / Applied Physics
+58,NUS(National University of Singapore),14,School of Business and Technology Management,Business & Accountancy
+58,NUS(National University of Singapore),14,School of Business and Technology Management,Business Analytics
+58,NUS(National University of Singapore),15,School of Computing,Computer Science
+58,NUS(National University of Singapore),15,School of Computing,Information Security
+58,NUS(National University of Singapore),15,School of Computing,Information Systems
+58,NUS(National University of Singapore),16,School of Electrical Engineering,Computer Engineering
+58,NUS(National University of Singapore),6,Department of Civil and Environmental Engineering,Architecture
+58,NUS(National University of Singapore),8,Department of Industrial Design,Industrial Design
+58,NUS(National University of Singapore),14,School of Business and Technology Management,Project & Facilities Management
+58,NUS(National University of Singapore),2,Department of Bio and Brain Engineering,Biomedical Engineering
+58,NUS(National University of Singapore),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+58,NUS(National University of Singapore),6,Department of Civil and Environmental Engineering,Civil Engineering
+58,NUS(National University of Singapore),6,Department of Civil and Environmental Engineering,Environmental Engineering
+58,NUS(National University of Singapore),16,School of Electrical Engineering,Electrical Engineering
+58,NUS(National University of Singapore),7,Department of Industrial & Systems Engineering,Industrial and Systems Engineering
+58,NUS(National University of Singapore),9,Department of Materials Science & Engineering,Material Science & Engineering
+58,NUS(National University of Singapore),11,Department of Mechanical Engineering,Mechanical Engineering
+58,NUS(National University of Singapore),16,School of Electrical Engineering,Computer Engineering
+58,NUS(National University of Singapore),4,Department of Chemical and Biomolecular Engineering,Medicine
+58,NUS(National University of Singapore),10,Department of Mathematical Sciences,Applied Mathematics
+58,NUS(National University of Singapore),5,Department of Chemistry,Chemistry
+58,NUS(National University of Singapore),3,Department of Biological Sciences,Computational Biology
+58,NUS(National University of Singapore),15,School of Computing,Data Science and Analytics
+58,NUS(National University of Singapore),3,Department of Biological Sciences,Life Sciences
+58,NUS(National University of Singapore),10,Department of Mathematical Sciences,Mathematics
+58,NUS(National University of Singapore),4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Science
+58,NUS(National University of Singapore),13,Department of Physics,Physics
+58,NUS(National University of Singapore),10,Department of Mathematical Sciences,Statistics
+59,Singapore University of Technology and Design,6,Department of Civil and Environmental Engineering,Architecture and Sustainable Design
+59,Singapore University of Technology and Design,8,Department of Industrial Design,Engineering Product Development
+59,Singapore University of Technology and Design,7,Department of Industrial & Systems Engineering,Engineering Systems and Design
+59,Singapore University of Technology and Design,16,School of Electrical Engineering,Information Systems Technology and Design
+60,KTH Royal Institute of Technology,6,Department of Civil and Environmental Engineering,Architecture and Built Environment
+60,KTH Royal Institute of Technology,3,Department of Biological Sciences,Biotechnology
+60,KTH Royal Institute of Technology,15,School of Computing,Computer Science and Communication
+60,KTH Royal Institute of Technology,16,School of Electrical Engineering,Electrical Engineering
+60,KTH Royal Institute of Technology,7,Department of Industrial & Systems Engineering,Industrial Engineering and Management
+60,KTH Royal Institute of Technology,15,School of Computing,Information and Communications Technology
+60,KTH Royal Institute of Technology,4,Department of Chemical and Biomolecular Engineering,Chemical Science and Engineering
+60,KTH Royal Institute of Technology,2,Department of Bio and Brain Engineering,Medical Engineering
+60,KTH Royal Institute of Technology,13,Department of Physics,Physics
+60,KTH Royal Institute of Technology,13,Department of Physics,Applied Physics
+60,KTH Royal Institute of Technology,13,Department of Physics,Theoretical Physics
+60,KTH Royal Institute of Technology,10,Department of Mathematical Sciences,Mathematics
+60,KTH Royal Institute of Technology,11,Department of Mechanical Engineering,Mechanics
+60,KTH Royal Institute of Technology,1,Department of Aerospace Engineering,Aeronautical and Vehicle Engineering
+60,KTH Royal Institute of Technology,9,Department of Materials Science & Engineering,Solid Mechanics
+61,Linkoping University,4,Department of Chemical and Biomolecular Engineering,Experimental and Medical Biosciences
+61,Linkoping University,11,Department of Mechanical Engineering,Intellegent Transport Systems and Logistics
+61,Linkoping University,11,Department of Mechanical Engineering,Mechanical Engineering
+61,Linkoping University,9,Department of Materials Science & Engineering,Materials Science and Nanotechnology
+61,Linkoping University,16,School of Electrical Engineering,Communication Systems
+61,Linkoping University,8,Department of Industrial Design,Design
+61,Linkoping University,2,Department of Bio and Brain Engineering,Biomedical Engineering
+61,Linkoping University,3,Department of Biological Sciences,Applied Ethology and Animal Biology
+61,Linkoping University,3,Department of Biological Sciences,Ecology and the Environment
+61,Linkoping University,16,School of Electrical Engineering,Electronics Engineering
+61,Linkoping University,4,Department of Chemical and Biomolecular Engineering,Experimental and Industrial Biomedicine
+61,Linkoping University,1,Department of Aerospace Engineering,Aeronautical Engineering
+62,Lund University,10,Department of Mathematical Sciences,Mathematics
+62,Lund University,3,Department of Biological Sciences,Physical Geography and Ecosystem Science
+62,Lund University,13,Department of Physics,Physics
+63,Uppsala University,4,Department of Chemical and Biomolecular Engineering,Medicine
+63,Uppsala University,4,Department of Chemical and Biomolecular Engineering,Pharmacy
+63,Uppsala University,15,School of Computing,Mathematics and Computer Science
+63,Uppsala University,13,Department of Physics,Physics
+63,Uppsala University,9,Department of Materials Science & Engineering,Structural Engineering
+63,Uppsala University,16,School of Electrical Engineering,Electricity
+63,Uppsala University,7,Department of Industrial & Systems Engineering,Industrial Engineering & Management
+63,Uppsala University,16,School of Electrical Engineering,Solid State Electronics
+63,Uppsala University,13,Department of Physics,Solid State Physics
+63,Uppsala University,9,Department of Materials Science & Engineering,Applied Materials
+63,Uppsala University,11,Department of Mechanical Engineering,Applied Mechanics
+63,Uppsala University,2,Department of Bio and Brain Engineering,Medtech Science & Innovation
+63,Uppsala University,5,Department of Chemistry,Chemistry
+63,Uppsala University,3,Department of Biological Sciences,Biology
+64,Ecole Polytechnique Federale de Lausanne (EPFL),4,Department of Chemical and Biomolecular Engineering,Chemistry & Chemical Engineering
+64,Ecole Polytechnique Federale de Lausanne (EPFL),10,Department of Mathematical Sciences,Mathematics
+64,Ecole Polytechnique Federale de Lausanne (EPFL),13,Department of Physics,Physics
+64,Ecole Polytechnique Federale de Lausanne (EPFL),16,School of Electrical Engineering,Communication Systems
+64,Ecole Polytechnique Federale de Lausanne (EPFL),15,School of Computing,Computer Science
+64,Ecole Polytechnique Federale de Lausanne (EPFL),16,School of Electrical Engineering,Electrical & Electronical Engineering
+64,Ecole Polytechnique Federale de Lausanne (EPFL),9,Department of Materials Science & Engineering,Materials Science & Engineering
+64,Ecole Polytechnique Federale de Lausanne (EPFL),11,Department of Mechanical Engineering,Mechanical Engineering
+64,Ecole Polytechnique Federale de Lausanne (EPFL),16,School of Electrical Engineering,Microengineering
+64,Ecole Polytechnique Federale de Lausanne (EPFL),2,Department of Bio and Brain Engineering,Life Sciences Engineering
+64,Ecole Polytechnique Federale de Lausanne (EPFL),6,Department of Civil and Environmental Engineering,Architecture
+64,Ecole Polytechnique Federale de Lausanne (EPFL),6,Department of Civil and Environmental Engineering,Civil Engineering
+64,Ecole Polytechnique Federale de Lausanne (EPFL),6,Department of Civil and Environmental Engineering,Environmental Sciences & Engineering
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),6,Department of Civil and Environmental Engineering,Architecture and CIvil Engineering
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),11,Department of Mechanical Engineering,Mechanical Engineering
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),16,School of Electrical Engineering,Electrical Engineering and Information Technology
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),15,School of Computing,Computer Science
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),9,Department of Materials Science & Engineering,Materials Science
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),10,Department of Mathematical Sciences,Mathematics
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),13,Department of Physics,Physics
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),15,School of Computing,Computational Science and Engineering
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),5,Department of Chemistry,Chemistry
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Sciences
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),3,Department of Biological Sciences,Biology
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),3,Department of Biological Sciences,Health Sciences and Technology
+66,Innopolis University,15,School of Computing,Computer Science and Software Engineering
+66,Innopolis University,11,Department of Mechanical Engineering,Robotics
+66,Innopolis University,16,School of Electrical Engineering,Information Systems
+66,Innopolis University,15,School of Computing,Technolgies and Software Development
+67,Sabanci University,5,Department of Chemistry,Chemistry
+67,Sabanci University,15,School of Computing,Computer Science & Engineering
+67,Sabanci University,14,School of Business and Technology Management,Economics
+67,Sabanci University,16,School of Electrical Engineering,Electronics Engineering
+67,Sabanci University,7,Department of Industrial & Systems Engineering,Industrial Engineering
+67,Sabanci University,14,School of Business and Technology Management,Management
+67,Sabanci University,9,Department of Materials Science & Engineering,Materials Science and Nano Engineering
+67,Sabanci University,10,Department of Mathematical Sciences,Mathematics
+67,Sabanci University,11,Department of Mechanical Engineering,Mechatronics Engineering
+67,Sabanci University,3,Department of Biological Sciences,"Molecular Biology, Genetics and Bioengineering"
+67,Sabanci University,13,Department of Physics,Physics
+68,Cardiff University,3,Department of Biological Sciences,Biosciences
+68,Cardiff University,2,Department of Bio and Brain Engineering,Healthcare Sciences
+68,Cardiff University,3,Department of Biological Sciences,Medicine
+68,Cardiff University,3,Department of Biological Sciences,Optimetry and Vision Sciences
+68,Cardiff University,5,Department of Chemistry,Pharmacy and Pharmaceutical Sciences
+68,Cardiff University,6,Department of Civil and Environmental Engineering,Architecture
+68,Cardiff University,5,Department of Chemistry,Chemistry
+68,Cardiff University,15,School of Computing,Computer Science and Informatics
+68,Cardiff University,6,Department of Civil and Environmental Engineering,Architectural Engineering
+68,Cardiff University,6,Department of Civil and Environmental Engineering,Civil Engineering
+68,Cardiff University,6,Department of Civil and Environmental Engineering,Civil and Environmental Engineering
+68,Cardiff University,16,School of Electrical Engineering,Electrical and Electronic Engineering
+68,Cardiff University,11,Department of Mechanical Engineering,Mechanical Engineering
+68,Cardiff University,2,Department of Bio and Brain Engineering,Medical Engineering
+68,Cardiff University,10,Department of Mathematical Sciences,Mathematics
+68,Cardiff University,13,Department of Physics,Physics and Astronomy
+69,University of Southampton,6,Department of Civil and Environmental Engineering,Civil Engineering and the Environment
+69,University of Southampton,13,Department of Physics,Acoustical Engineering
+69,University of Southampton,1,Department of Aerospace Engineering,Aeronautics and Astronautics
+69,University of Southampton,6,Department of Civil and Environmental Engineering,Civil Engineering
+69,University of Southampton,15,School of Computing,Electronics and Computer Science
+69,University of Southampton,11,Department of Mechanical Engineering,Mechanical Engineering
+69,University of Southampton,2,Department of Bio and Brain Engineering,Health Sciences
+69,University of Southampton,3,Department of Biological Sciences,Biological Sciences
+69,University of Southampton,5,Department of Chemistry,Chemistry
+69,University of Southampton,16,School of Electrical Engineering,Electronics and Computer Science
+69,University of Southampton,13,Department of Physics,Physics and Astronomy
+69,University of Southampton,10,Department of Mathematical Sciences,Mathemarics
+70,University of Leeds,3,Department of Biological Sciences,Biological Sciences
+70,University of Leeds,4,Department of Chemical and Biomolecular Engineering,Chemical and Process Engineering
+70,University of Leeds,6,Department of Civil and Environmental Engineering,Civil Engineering
+70,University of Leeds,15,School of Computing,Computing
+70,University of Leeds,16,School of Electrical Engineering,Electronic and Electrical Engineering
+70,University of Leeds,11,Department of Mechanical Engineering,Mechanical Engineering
+70,University of Leeds,5,Department of Chemistry,Chemistry
+70,University of Leeds,10,Department of Mathematical Sciences,Mathematics
+70,University of Leeds,13,Department of Physics,Physics and Astronomy
+71,Drexel University,6,Department of Civil and Environmental Engineering,Architectural Engineering
+71,Drexel University,3,Department of Biological Sciences,Biological Sciences
+71,Drexel University,2,Department of Bio and Brain Engineering,Biomedical Engineering
+71,Drexel University,14,School of Business and Technology Management,Business and Engineering
+71,Drexel University,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
+71,Drexel University,5,Department of Chemistry,Chemistry
+71,Drexel University,6,Department of Civil and Environmental Engineering,Civil Engineering
+71,Drexel University,16,School of Electrical Engineering,Computer Engineering
+71,Drexel University,15,School of Computing,Computer Sciences
+71,Drexel University,15,School of Computing,Data Science
+71,Drexel University,8,Department of Industrial Design,Design and Merchandising
+71,Drexel University,16,School of Electrical Engineering,Electrical Engineering
+71,Drexel University,13,Department of Physics,Physics
+71,Drexel University,15,School of Computing,Software Engineering
+72,State University of New York at Stony Brook,10,Department of Mathematical Sciences,Applied Mathematics and Statistics
+72,State University of New York at Stony Brook,2,Department of Bio and Brain Engineering,Biomedical Engineering
+72,State University of New York at Stony Brook,15,School of Computing,Computer Science
+72,State University of New York at Stony Brook,16,School of Electrical Engineering,Electrical and Computer Engineering
+72,State University of New York at Stony Brook,9,Department of Materials Science & Engineering,Materials Science and Engineering
+72,State University of New York at Stony Brook,11,Department of Mechanical Engineering,Mechanical Engineering
+72,State University of New York at Stony Brook,3,Department of Biological Sciences,Biochemistry and Cell Biology
+72,State University of New York at Stony Brook,5,Department of Chemistry,Chemistry
+72,State University of New York at Stony Brook,10,Department of Mathematical Sciences,Mathematics
+72,State University of New York at Stony Brook,2,Department of Bio and Brain Engineering,Neurology & Behavior
+72,State University of New York at Stony Brook,13,Department of Physics,Physics and Astronomy
+73,Northeastern University,6,Department of Civil and Environmental Engineering,Architecture
+73,Northeastern University,2,Department of Bio and Brain Engineering,Behavioral Neuroscience
+73,Northeastern University,5,Department of Chemistry,Biochemistry
+73,Northeastern University,3,Department of Biological Sciences,Biology
+73,Northeastern University,5,Department of Chemistry,Chemistry
+73,Northeastern University,15,School of Computing,Computer Science
+73,Northeastern University,16,School of Electrical Engineering,Engineering
+73,Northeastern University,8,Department of Industrial Design,Design
+73,Northeastern University,3,Department of Biological Sciences,Health Science
+73,Northeastern University,10,Department of Mathematical Sciences,Mathematics
+73,Northeastern University,3,Department of Biological Sciences,Pharmaceutical Sciences
+73,Northeastern University,13,Department of Physics,Physics
+74,Georgia Institute of Technology,15,School of Computing,Computer Science
+74,Georgia Institute of Technology,6,Department of Civil and Environmental Engineering,Architecture
+74,Georgia Institute of Technology,8,Department of Industrial Design,Industrial Design
+74,Georgia Institute of Technology,1,Department of Aerospace Engineering,Aerospace Engineering
+74,Georgia Institute of Technology,2,Department of Bio and Brain Engineering,Biomedical Engineering
+74,Georgia Institute of Technology,4,Department of Chemical and Biomolecular Engineering,Chemical and Biomolecular Engineering
+74,Georgia Institute of Technology,6,Department of Civil and Environmental Engineering,Civil Engineering
+74,Georgia Institute of Technology,16,School of Electrical Engineering,Computer Engineering
+74,Georgia Institute of Technology,16,School of Electrical Engineering,Electrical Engineering
+74,Georgia Institute of Technology,8,Department of Industrial Design,Industrial Engineering
+74,Georgia Institute of Technology,9,Department of Materials Science & Engineering,Materials Science and Engineering
+74,Georgia Institute of Technology,11,Department of Mechanical Engineering,Mechanical Engineering
+74,Georgia Institute of Technology,12,Department of Nuclear and Quantum Engineering,Nuclear and Radiological Engineering
+74,Georgia Institute of Technology,13,Department of Physics,Physics
+74,Georgia Institute of Technology,3,Department of Biological Sciences,Biochemistry
+74,Georgia Institute of Technology,3,Department of Biological Sciences,Biology
+74,Georgia Institute of Technology,5,Department of Chemistry,Chemistry
+74,Georgia Institute of Technology,10,Department of Mathematical Sciences,Mathematics
+74,Georgia Institute of Technology,2,Department of Bio and Brain Engineering,Neuroscience
+75,Rice University,2,Department of Bio and Brain Engineering,Bioengineering
+75,Rice University,4,Department of Chemical and Biomolecular Engineering,Chemical and Biomolecular Engineering
+75,Rice University,6,Department of Civil and Environmental Engineering,Civil and Environmental Engineering
+75,Rice University,15,School of Computing,Computational and Applied Mathematics
+75,Rice University,15,School of Computing,Computer Science
+75,Rice University,16,School of Electrical Engineering,Electrical and Computer Engineering
+75,Rice University,9,Department of Materials Science & Engineering,Materials Science
+75,Rice University,11,Department of Mechanical Engineering,Mechanical Engineering
+75,Rice University,10,Department of Mathematical Sciences,Statistics
+75,Rice University,3,Department of Biological Sciences,BioSciences
+75,Rice University,5,Department of Chemistry,Chemistry
+75,Rice University,10,Department of Mathematical Sciences,Mathematics
+75,Rice University,13,Department of Physics,Physics and Astronomy
+75,Rice University,2,Department of Bio and Brain Engineering,Cognitive Sciences

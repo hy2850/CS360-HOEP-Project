@@ -1,0 +1,16 @@
+Type,Language_id,Subtype,Domain
+CEFR,ES,NULL,"{A1, A2, B1, B2, C1, C2}"
+CEFR,FR,NULL,"{A1, A2, B1, B2, C1, C3}"
+CEFR,EN,NULL,"{A1, A2, B1, B2, C1, C4}"
+CEFR,DE,NULL,"{A1, A2, B1, B2, C1, C5}"
+CEFR,IT,NULL,"{A1, A2, B1, B2, C1, C6}"
+IELTS,EN,NULL,int(0~9)
+iBT-TOEFL,EN,Writing,int(0~30)
+iBT-TOEFL,EN,Reading,int(0~30)
+iBT-TOEFL,EN,Speaking,int(0~30)
+iBT-TOEFL,EN,Listening,int(0~30)
+iBT-TOEFL,EN,Total,int(0~120)
+PBT-TOEFL,EN,Total,int(307~677)
+TOEIC,EN,Total,int(0~785)
+TEF,FR,NULL,"0+, int(1~6)"
+JLPT,JP,NULL,"{N1, N2, N3, N4, N5}"
