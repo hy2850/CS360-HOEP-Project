@@ -42,7 +42,7 @@ UID,Name,Country_id,Language_id,Available_number,Undergraduate,Graduate,Region
 41,HKUST(School of Engineering),HK,EN,1,1,0,Hong Kong
 42,City University of Hong Kong,HK,EN,4,1,0,Hong Kong
 43,The Hong Kong Polytechnic University,HK,EN,6,1,0,Hong Kong
-44,"The Chinese University of Hong Kong, Shenzen",HK,EN,5,1,1,Hong Kong
+44,The Chinese University of Hong Kong (Shenzen),HK,EN,5,1,1,Hong Kong
 45,Budapest University of Technology and Economics,HU,HU,3,1,1,Europe
 46,Polytechnic University of Milan,IT,IT,6,1,1,Europe
 47,Polytechnic University of Torino,IT,IT,5,1,1,Europe
