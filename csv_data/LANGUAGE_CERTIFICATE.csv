@@ -22,10 +22,10 @@ UID,Univ_name,Type,Language_id,Requisite
 12,Czech Technical University in Prague,iBT-TOEFL,EN,90
 13,Technical University of Denmark (DTU),IELTS,EN,6.5
 13,Technical University of Denmark (DTU),iBT-TOEFL,EN,88
-14,"Aalto University (technical schools (the School of Chemical Technology, the School of Electrical Engineering, the School of Engineering, and the School of Science))",IELTS,EN,6.5
-14,"Aalto University (technical schools (the School of Chemical Technology, the School of Electrical Engineering, the School of Engineering, and the School of Science))",iBT-TOEFL,EN,92
-15,"Aalto University (Aalto Arts (New Media Design and Production, Collaborative and Industrial Design, Product and Spatial Design))",IELTS,EN,6.5
-15,"Aalto University (Aalto Arts (New Media Design and Production, Collaborative and Industrial Design, Product and Spatial Design))",iBT-TOEFL,EN,92
+14,Aalto University,IELTS,EN,6.5
+14,Aalto University,iBT-TOEFL,EN,92
+15,Aalto University,IELTS,EN,6.5
+15,Aalto University,iBT-TOEFL,EN,92
 16,Tampere University of Technology (TUT),CEFR,EN,B2
 16,Tampere University of Technology (TUT),TOEIC,EN,785
 17,Ecole Polytechnique,CEFR,FR,B1
