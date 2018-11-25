@@ -45,8 +45,28 @@ app.post('/inital_search', function (req, res) {
 
 	// [Work-to-do] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
 
-	var str1 = 'SELECT Name, Univ_track FROM REQUEST1 WHERE RID = '
-	queryStr = str1.concat(req.body.user_region[0], ' AND DID = ', req.body.user_dept, ';')
+	// Construct queryStr
+	var queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE DID = "'
+					+ req.body.user_dept + '" AND RID '
+
+	// Case 1. Multiple regions selected by user
+	if(req.body.user_region.length > 1){
+		var region_str_set = "("
+		var index = 1
+
+		for(index = 1; index < req.body.user_region.length; index++){
+			region_str_set = region_str_set.concat(req.body.user_region[index], ',')
+		}
+		// Replace last character ',' with ')' ()
+		// https://stackoverflow.com/questions/36630230/replace-last-character-of-string-using-javascript
+		var region_str_set = region_str_set.replace(/.$/,")")
+
+		queryStr = queryStr.concat("IN ", region_str_set, ";")
+
+	// Case 2. Only one region selected by user
+	}else{
+		queryStr = queryStr.concat('= ', req.body.user_region[0], ';')
+	}
 
 	/*
 	queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE RID = "'
