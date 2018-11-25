@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
     port     : 3306,
     user     : 'tester',
     password : '1234',
-    database : 'cs360_tutorial',
+    database : 'cs360_hoep',
 });
 
 connection.connect(); // Connection to MySQL
@@ -21,7 +21,7 @@ app.use('/', express.static(__dirname + '/public')); // you may put public js, c
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
-})); 
+}));
 
 
 
@@ -42,13 +42,23 @@ app.get('/', function (req, res) {
 // get action to give raw data for user_tbl: "http://localhost/listAPI"
 app.post('/inital_search', function (req, res) {
 	console.log(req.body); // log to the node.js server
-	
-	queryStr = 'select * from user_tbl where id = '
-		+ req.body.user_region[0] + ';';
-	
+
+	// [Work-to-do] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
+
+	var str1 = 'SELECT Name, Univ_track FROM REQUEST1 WHERE RID = '
+	queryStr = str1.concat(req.body.user_region[0], ' AND DID = ', req.body.user_dept, ';')
+
+	/*
+	queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE RID = "'
+		+ req.body.user_region[0]
+		+ '" AND DID = "'
+		+ req.body.user_dept
+		+ '";';
+	*/
+
 	connection.query(queryStr, function (err, rows) {
 		if (err) throw err;
 		console.log(rows);
 		res.send(rows);
 	})
-});	
+});
