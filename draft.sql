@@ -21,7 +21,8 @@ SELECT Univ_name, Region, Dept, Language_id, Available_number, Undergraduate,
 Graduate, URL
 FROM UNIV_REGION_DEPARTMENT JOIN FORMER_EXCHANGE ON UNIV_REGION_DEPARTMENT.UID = FORMER_EXCHANGE.UID;
 
-# Select both region and department
+/*
 SELECT Name,
 FROM RESULT_VIEW
 WHERE DID == '' AND RID == ''
+*/
