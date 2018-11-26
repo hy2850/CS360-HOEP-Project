@@ -3,37 +3,56 @@
 <body>
 
 <h1> HOEP - For KAIST exchange students </h1>
-<form action="/inital_search" method="POST">
+<form action="/inital_search" method="POST", target='_blank'>
 	<p>학과와 지역 입력 시, 알맞는 대학을 찾아드립니다! </p>
 	<br>
 
-	<!-- 학과 선택 드롭다운 -->
-	<select name = "user_dept">
+	
+   <!-- 학과 선택 드롭다운 -->
+   <select name = "user_dept">
 		<option value='' selected> -- 학과 선택 -- </option>
 		<option value=1> Department of Aerospace Engineering </option>
 		<option value=2> Department of Bio and Brain Engineering </option>
 		<option value=3> Department of Biological Sciences </option>
+		<option value=4> Department of Chemical and Biomolecular Engineering </option>
+		<option value=5> Department of Chemistry </option>
+		<option value=6> Department of Civil and Environmental Engineering </option>
+		<option value=7> Department of Industrial & Systems Engineering </option>
+		<option value=8> Department of Industrial Design </option>
+		<option value=9> Department of Materials Science & Engineering </option>
+		<option value=10> Department of Mathematical Sciences </option>
+		<option value=11> Department of Mechanical Engineering </option>
+		<option value=12> Department of Nuclear and Quantum Engineering </option>
+		<option value=13> Department of Physics </option>
+		<option value=14> School of Business and Technology Management </option>
+		<option value=15> School of Computing </option>
+		<option value=16> School of Electrical Engineering </option>
 	</select>
 	<br>
 
-	<!-- 지역 선택 체크박스 -->
-	<script language="JavaScript">
-	function toggle(source) {
-	  checkboxes = document.getElementsByName('user_region');
-	  for(var i=0, n=checkboxes.length;i<n;i++) {
-	    checkboxes[i].checked = source.checked;
-	  }
-	}
-	</script>
-	<br>
+   <!-- 지역 선택 체크박스 -->
+   <script language="JavaScript">
+   function toggle(source) {
+     checkboxes = document.getElementsByName('user_region');
+     for(var i=0, n=checkboxes.length;i<n;i++) {
+       checkboxes[i].checked = source.checked;
+     }
+   }
+   </script>
+   <br>
 
-	<input type="checkbox" onClick="toggle(this)" /> 모든 지역 선택 <br/>
-	<input type="checkbox" name="user_region" value=1> Asia <br/>
-	<input type="checkbox" name="user_region" value=2> Hong Kong <br/>
-	<input type="checkbox" name="user_region" value=3> Singapore <br/>
-	<input type="checkbox" name="user_region" value=4> Europe <br/>
-
-	<input onclick="alert('Data submitted');" type="submit" value="Submit">
+   <input type="checkbox" onClick="toggle(this)" /> 모든 지역 선택 <br/>
+   <input type="checkbox" name="user_region" value=1> Asia <br/>
+   <input type="checkbox" name="user_region" value=2> Hong Kong <br/>
+   <input type="checkbox" name="user_region" value=3> Singapore <br/>
+   <input type="checkbox" name="user_region" value=4> Europe <br/>
+   <input type="checkbox" name="user_region" value=5> South America <br/>
+   <input type="checkbox" name="user_region" value=6> Scandinavia <br/>
+   <input type="checkbox" name="user_region" value=7> Austrailia <br/>
+   <input type="checkbox" name="user_region" value=8> North America <br/>
+   <input type="checkbox" name="user_region" value=9> Middle East <br/>
+   <input type="checkbox" name="user_region" value=10> Africa <br/>
+   <input onclick="alert('Data submitted');" type="submit" value="Submit">
 	<br>
 </form>
 </body>

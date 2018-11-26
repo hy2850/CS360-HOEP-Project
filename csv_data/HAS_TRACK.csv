@@ -128,10 +128,10 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 12,Czech Technical University in Prague,12,Department of Nuclear and Quantum Engineering,Nuclear Engineering
 12,Czech Technical University in Prague,13,Department of Physics,Physics
 12,Czech Technical University in Prague,7,Department of Industrial & Systems Engineering,Production Engineering
-12,Czech Technical University in Prague,15,School of Computing,"Software Engineering,"
+12,Czech Technical University in Prague,15,School of Computing,Software Engineering
 13,Technical University of Denmark (DTU),1,Department of Aerospace Engineering,Aeronautical and Aerospace Engineering
 13,Technical University of Denmark (DTU),2,Department of Bio and Brain Engineering,Bioengineering
-13,Technical University of Denmark (DTU),3,Department of Biological Sciences,"Biological and Life Sciences,"
+13,Technical University of Denmark (DTU),3,Department of Biological Sciences,Biological and Life Sciences
 13,Technical University of Denmark (DTU),4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
 13,Technical University of Denmark (DTU),5,Department of Chemistry,Chemistry
 13,Technical University of Denmark (DTU),6,Department of Civil and Environmental Engineering,Civil Engineering
@@ -337,14 +337,14 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 43,The Hong Kong Polytechnic University,15,School of Computing,Computer Engineering
 43,The Hong Kong Polytechnic University,16,School of Electrical Engineering,Electrical Engineering
 43,The Hong Kong Polytechnic University,11,Department of Mechanical Engineering,Mechanical Engineering
-44,"The Chinese University of Hong Kong, Shenzen",14,School of Business and Technology Management,Business Administration
-44,"The Chinese University of Hong Kong, Shenzen",15,School of Computing,Computer Engineering
-44,"The Chinese University of Hong Kong, Shenzen",16,School of Electrical Engineering,Electronic Engineering
-44,"The Chinese University of Hong Kong, Shenzen",11,Department of Mechanical Engineering,Mechanical Engineering
-44,"The Chinese University of Hong Kong, Shenzen",3,Department of Biological Sciences,Biological and Life Sciences
-44,"The Chinese University of Hong Kong, Shenzen",5,Department of Chemistry,Chemistry
-44,"The Chinese University of Hong Kong, Shenzen",10,Department of Mathematical Sciences,Mathematics
-44,"The Chinese University of Hong Kong, Shenzen",13,Department of Physics,Physics
+44,The Chinese University of Hong Kong (Shenzen),14,School of Business and Technology Management,Business Administration
+44,The Chinese University of Hong Kong (Shenzen),15,School of Computing,Computer Engineering
+44,The Chinese University of Hong Kong (Shenzen),16,School of Electrical Engineering,Electronic Engineering
+44,The Chinese University of Hong Kong (Shenzen),11,Department of Mechanical Engineering,Mechanical Engineering
+44,The Chinese University of Hong Kong (Shenzen),3,Department of Biological Sciences,Biological and Life Sciences
+44,The Chinese University of Hong Kong (Shenzen),5,Department of Chemistry,Chemistry
+44,The Chinese University of Hong Kong (Shenzen),10,Department of Mathematical Sciences,Mathematics
+44,The Chinese University of Hong Kong (Shenzen),13,Department of Physics,Physics
 45,Budapest University of Technology and Economics,6,Department of Civil and Environmental Engineering,Civil Engineering
 45,Budapest University of Technology and Economics,11,Department of Mechanical Engineering,Mechanical Engineering
 45,Budapest University of Technology and Economics,6,Department of Civil and Environmental Engineering,Architecture
@@ -373,15 +373,15 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 46,Polytechnic University of Milan,11,Department of Mechanical Engineering,Mechanical Engineering
 46,Polytechnic University of Milan,13,Department of Physics,Physics Engineering
 46,Polytechnic University of Milan,8,Department of Industrial Design,Product Design
-46,Polytechnic University of Milan,6,Department of Civil and Environmental Engineering,"Urban Planning: Cities, Environment & Landscapes"
+46,Polytechnic University of Milan,6,Department of Civil and Environmental Engineering,Urban Planning
 47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,Architecture and Design
 47,Polytechnic University of Torino,16,School of Electrical Engineering,Control and Computer Engineering
 47,Polytechnic University of Torino,12,Department of Nuclear and Quantum Engineering,Energy
 47,Polytechnic University of Torino,16,School of Electrical Engineering,Electronics and Telecommunications
-47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,"Environment, Land and Infrastructure Engineering"
+47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,Environment Engineering
 47,Polytechnic University of Torino,7,Department of Industrial & Systems Engineering,Management and Production Engineering
 47,Polytechnic University of Torino,1,Department of Aerospace Engineering,Mechanical and Aerospace Engineering
-47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,"Structural, Geotechnical and Building Engineering"
+47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,Building Engineering
 47,Polytechnic University of Torino,10,Department of Mathematical Sciences,Mathematical Sciences
 47,Polytechnic University of Torino,6,Department of Civil and Environmental Engineering,Regional and Urban Studies and Planning
 48,University of Trento,14,School of Business and Technology Management,Economics and Management
@@ -390,7 +390,7 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 48,University of Trento,7,Department of Industrial & Systems Engineering,Industrial Engineering
 48,University of Trento,10,Department of Mathematical Sciences,Mathematics
 48,University of Trento,2,Department of Bio and Brain Engineering,Psychology and Cognitive Science
-48,University of Trento,10,Department of Mathematical Sciences,"Mathematical, Physical and Natural Science"
+48,University of Trento,10,Department of Mathematical Sciences,Mathematical Science
 49,Kyoto University,14,School of Business and Technology Management,Economics
 49,Kyoto University,10,Department of Mathematical Sciences,Mathematics
 49,Kyoto University,13,Department of Physics,Physics and Astronomy
@@ -440,8 +440,8 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 52,Tohoku University,2,Department of Bio and Brain Engineering,Health Sciences
 52,Tohoku University,4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Sciences
 52,Tohoku University,1,Department of Aerospace Engineering,Mechanical and Aerospace Engineering
-52,Tohoku University,16,School of Electrical Engineering,"Electrical, Information and Physics Engineering"
-52,Tohoku University,4,Department of Chemical and Biomolecular Engineering,"Applied Chemistry, Chemical Engineering and Biomolecular Engineering"
+52,Tohoku University,16,School of Electrical Engineering,Electrical Engineering
+52,Tohoku University,4,Department of Chemical and Biomolecular Engineering,Chemical Engineering
 52,Tohoku University,9,Department of Materials Science & Engineering,Materials Science and Engineering
 52,Tohoku University,3,Department of Biological Sciences,Applied Bio-Sciences
 52,Tohoku University,4,Department of Chemical and Biomolecular Engineering,Applied Biological Chemistry
@@ -455,7 +455,7 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 53,Kyushu University,4,Department of Chemical and Biomolecular Engineering,Pharmaceutical Sciences
 53,Kyushu University,16,School of Electrical Engineering,Electrical Engineering and Computer Science
 53,Kyushu University,9,Department of Materials Science & Engineering,Materials Science and Engineering
-53,Kyushu University,6,Department of Civil and Environmental Engineering,"Earth Resources, Marine and Civil Engineering"
+53,Kyushu University,6,Department of Civil and Environmental Engineering,Civil Engineering
 53,Kyushu University,12,Department of Nuclear and Quantum Engineering,Energy Science and Engineering
 53,Kyushu University,1,Department of Aerospace Engineering,Mechanical and Aerospace Engineering
 53,Kyushu University,6,Department of Civil and Environmental Engineering,Architecture
@@ -463,14 +463,14 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 53,Kyushu University,3,Department of Biological Sciences,Agriculture
 54,TU Delft (Delft University of Technology),6,Department of Civil and Environmental Engineering,Architecture and the Built Environment
 54,TU Delft (Delft University of Technology),6,Department of Civil and Environmental Engineering,Civil Engineering and Geosciences
-54,TU Delft (Delft University of Technology),10,Department of Mathematical Sciences,"Electrical Engineering, Mathematics & Computer Science"
+54,TU Delft (Delft University of Technology),10,Department of Mathematical Sciences,Mathematics & Computer Science
 54,TU Delft (Delft University of Technology),7,Department of Industrial & Systems Engineering,Industrial Design Engineering
 54,TU Delft (Delft University of Technology),1,Department of Aerospace Engineering,Aerospace Engineering
-54,TU Delft (Delft University of Technology),14,School of Business and Technology Management,"Technology, Policy & Management"
+54,TU Delft (Delft University of Technology),14,School of Business and Technology Management,Technology Management
 54,TU Delft (Delft University of Technology),2,Department of Bio and Brain Engineering,Life Science and Technology
 54,TU Delft (Delft University of Technology),4,Department of Chemical and Biomolecular Engineering,Molecular Science and Technology
 54,TU Delft (Delft University of Technology),4,Department of Chemical and Biomolecular Engineering,Nanobiology
-54,TU Delft (Delft University of Technology),11,Department of Mechanical Engineering,"Mechanical, Maritime and Materials Engineering"
+54,TU Delft (Delft University of Technology),11,Department of Mechanical Engineering,Mechanical Engineering
 55,University of Twente,10,Department of Mathematical Sciences,Applied Mathematics
 55,University of Twente,13,Department of Physics,Applied Physics
 55,University of Twente,2,Department of Bio and Brain Engineering,Biomedical Technology
@@ -492,7 +492,7 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 56,Warsaw University of Technology,6,Department of Civil and Environmental Engineering,Civil Engineering
 56,Warsaw University of Technology,16,School of Electrical Engineering,Electrical Engineering
 56,Warsaw University of Technology,16,School of Electrical Engineering,Electronics and Information Technology
-56,Warsaw University of Technology,6,Department of Civil and Environmental Engineering,"Building Services, Hydro and Environmental Engineering"
+56,Warsaw University of Technology,6,Department of Civil and Environmental Engineering,Building Engineering
 56,Warsaw University of Technology,10,Department of Mathematical Sciences,Mathematics and Information Science
 56,Warsaw University of Technology,14,School of Business and Technology Management,Management
 56,Warsaw University of Technology,9,Department of Materials Science & Engineering,Materials Science and Engineering
@@ -521,7 +521,6 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 58,NUS(National University of Singapore),15,School of Computing,Computer Science
 58,NUS(National University of Singapore),15,School of Computing,Information Security
 58,NUS(National University of Singapore),15,School of Computing,Information Systems
-58,NUS(National University of Singapore),16,School of Electrical Engineering,Computer Engineering
 58,NUS(National University of Singapore),6,Department of Civil and Environmental Engineering,Architecture
 58,NUS(National University of Singapore),8,Department of Industrial Design,Industrial Design
 58,NUS(National University of Singapore),14,School of Business and Technology Management,Project & Facilities Management
@@ -631,7 +630,7 @@ UID,Univ_name,DID,KAIST_dept,Univ_track
 67,Sabanci University,9,Department of Materials Science & Engineering,Materials Science and Nano Engineering
 67,Sabanci University,10,Department of Mathematical Sciences,Mathematics
 67,Sabanci University,11,Department of Mechanical Engineering,Mechatronics Engineering
-67,Sabanci University,3,Department of Biological Sciences,"Molecular Biology, Genetics and Bioengineering"
+67,Sabanci University,3,Department of Biological Sciences,Molecular Bioengineering
 67,Sabanci University,13,Department of Physics,Physics
 68,Cardiff University,3,Department of Biological Sciences,Biosciences
 68,Cardiff University,2,Department of Bio and Brain Engineering,Healthcare Sciences
