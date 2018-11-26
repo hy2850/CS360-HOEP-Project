@@ -45,7 +45,7 @@ app.post('/inital_search', function (req, res) {
 	// [Work-to-do] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
 	//window.alert("Please select more than one condition.")
 
-<<<<<<< HEAD
+
 	// Construct queryStr
 	queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE DID = "'
 					+ req.body.user_dept + '" AND RID '
@@ -68,10 +68,6 @@ app.post('/inital_search', function (req, res) {
 	}else{
 		queryStr = queryStr.concat('= ', req.body.user_region[0], ';')
 	}
-=======
-	var str1 = 'SELECT Name, Univ_track FROM REQUEST1 WHERE RID = '
-	queryStr = str1.concat(req.body.user_region[0], ' AND DID = ', req.body.user_dept, ';')
->>>>>>> parent of d5bb3c2... Merge pull request #4 from hy2850/hy2850
 
 	/*
 	queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE RID = "'
