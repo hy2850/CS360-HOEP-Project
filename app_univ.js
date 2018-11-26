@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 }));
 
-
+var queryStr = ""
 
 // "node app.js" running on port 3000
 app.listen(8000, function () {
@@ -38,15 +38,15 @@ app.get('/', function (req, res) {
 });
 
 
-
 // get action to give raw data for user_tbl: "http://localhost/listAPI"
 app.post('/inital_search', function (req, res) {
 	console.log(req.body); // log to the node.js server
 
 	// [Work-to-do] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
+	//window.alert("Please select more than one condition.")
 
 	// Construct queryStr
-	var queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE DID = "'
+	queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE DID = "'
 					+ req.body.user_dept + '" AND RID '
 
 	// Case 1. Multiple regions selected by user
@@ -75,10 +75,19 @@ app.post('/inital_search', function (req, res) {
 		+ req.body.user_dept
 		+ '";';
 	*/
-
+	/*
 	connection.query(queryStr, function (err, rows) {
 		if (err) throw err;
 		console.log(rows);
+		res.send(rows);
+	})
+	*/
+	res.sendFile(__dirname + "/result.html")
+});
+
+app.get('/listAPI', function (req, res) {
+	connection.query(queryStr, function (err, rows) {
+		if (err) throw err;
 		res.send(rows);
 	})
 });
