@@ -42,10 +42,14 @@ app.get('/', function (req, res) {
 
 // get action to give raw data for user_tbl: "http://localhost/listAPI"
 app.post('/univ_search', function (req, res) {
-	console.log(req.body); // log to the node.js server
+	console.log(req.body); // log to the node.js server (CMD console에 이미지 띄우기 )
 
-	// [Work-to-do] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
-
+	// [수정 가능] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
+	// res.sendFile로 새로운 페이지에 alert_box.html을 띄우는 것으로 구현했는데, 애초에 POST 액션 전에 메인 페이지에서 뜨게 하는 방법이 있으면 수정하기
+	if (req.body.user_dept == 0 || typeof req.body.user_region == "undefined"){
+		res.sendFile(__dirname + "/alert_box.html");
+		return
+	}
 
 	// Construct queryStr
 	queryStr = 'SELECT * FROM (SELECT DID, RID, Univ_name, Region, Dept, Language_id, Available_number, URL, UNDERGRADUATE FROM RESULT_VIEW WHERE DID = "'
