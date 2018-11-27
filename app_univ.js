@@ -142,6 +142,7 @@ app.get('/io_search_API', function(req, res){
 app.post('/io_update', function(req, res){
 	console.log(req.body); // log to the node.js server
 	
+	// Invalid input for CID or RID → put alert box on page
 	if (req.body.coord_CID <= 0 || req.body.coord_CID > 9 || req.body.region_CID <= 0 || req.body.region_CID > 10){
 		res.sendFile(__dirname + "/alert_box.html");
 		return
@@ -155,10 +156,10 @@ app.post('/io_update', function(req, res){
 		connection.query(queryStr, function (err, rows) { // send query to MySQL
 			if (err) throw err;
 			console.log(rows); // log to check MySQL update result
-			res.sendFile(__dirname + "/success_box.html");  
+			res.sendFile(__dirname + "/success_box.html");  // Put success box on page
 		})
 	} else {
-		// Wrong password error message
+		// Wrong password error message → put wrong password alert box on page
 		res.sendFile(__dirname + "/alert_wrong_password.html");
 		return
 	}
