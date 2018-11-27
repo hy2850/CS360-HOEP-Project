@@ -52,8 +52,8 @@ app.post('/univ_search', function (req, res) {
 	}
 
 	// Construct queryStr
-	queryStr = 'SELECT * FROM (SELECT DID, RID, Univ_name, Region, Dept, Language_id, Available_number, URL, UNDERGRADUATE FROM RESULT_VIEW WHERE DID = "'
-					+ req.body.user_dept + '" AND RID '
+	queryStr =
+	'SELECT A.Name as Univ_name, B.Univ_track as Dept, A.Region, A.Language_id, A.Available_number FROM UNIVERSITY AS A INNER JOIN (SELECT UID, Univ_track FROM REQUEST1 WHERE DID = "' + req.body.user_dept + '" AND RID '
 
 	// Case 1. Multiple regions selected by user
 	if(req.body.user_region.length > 1){
@@ -73,7 +73,8 @@ app.post('/univ_search', function (req, res) {
 	}else{
 		queryStr = queryStr.concat('= ', req.body.user_region[0])
 	}
-	queryStr = queryStr + ') AS TMP WHERE Undergraduate = 1;'
+
+	queryStr = queryStr + ') AS B USING(UID) WHERE Undergraduate = 1;'
 	res.sendFile(__dirname + "/result.html");
 });
 

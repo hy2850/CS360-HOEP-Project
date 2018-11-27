@@ -12,7 +12,6 @@
 		<th>Region</th>
 		<th>Language</th>
 		<th>TO</th>
-		<th>Review URL</th>
 	</tr>
 	<tbody></tbody>
 </table>
@@ -32,13 +31,12 @@ $(function( result) {
 		success: function( result ) {
 			for (var i in result){
 				var item = result[i];
-				$('#mytable > tbody:last').append('<tr>' + 
-					'<td>' + item.Univ_name + '</td>' + 
-					'<td>' + item.Dept + '</td>' + 
-					'<td>' + item.Region + '</td>' + 
-					'<td>' + item.Language_id + '</td>' + 
-					'<td>' + item.Available_number + '</td>' + 
-					'<td>' + item.URL + '</td>' 
+				$('#mytable > tbody:last').append('<tr>' +
+					'<td>' + item.Univ_name + '</td>' +
+					'<td>' + item.Dept + '</td>' +
+					'<td>' + item.Region + '</td>' +
+					'<td>' + item.Language_id + '</td>' +
+					'<td>' + item.Available_number + '</td>'
 				);
 			}
 		}
