@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="result_pretty.css">
+</head>
+<body>
+
+<table id="mytable" border="1" cellspacing="3">
+	<tr>
+		<th>University</th>
+		<th>Writer</th>
+		<th>Review URL</th>
+	</tr>
+	<tbody></tbody>
+</table>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script>
+
+
+
+$(function( result) {
+	console.log( "ready!" );
+	$.ajax({
+		url: "/review_search_API",
+		success: function( result ) {
+			console.log(result)
+			for (var i in result){
+				var item = result[i];
+				$('#mytable > tbody:last').append('<tr>' + 
+					'<td>' + item.Univ_name + '</td>' + 
+					'<td>' + item.Name + '</td>' + 
+					'<td><a href="' + item.URL + '" target="_blank">link</a></td>' 
+				);
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>
+
