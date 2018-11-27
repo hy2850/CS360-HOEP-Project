@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+<link rel="stylesheet" type="text/css" href="tab.css">
+<script type="text/javascript" src='app_univ.js'> </script>
+</head>
+
 <body>
 
 <h1> HOEP - For KAIST exchange students </h1>
-<form action="/inital_search" method="POST", target='_blank'>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'University')">University</button>
+  <button class="tablinks" onclick="openTab(event, 'Reviews')">Reviews</button>
+  <button class="tablinks" onclick="openTab(event, 'Contact Info')">Contact Info</button>
+</div>
+
+<!-- Tab content -->
+<div id="University" class="tabcontent">
+  <h3>Search Universities.</h3>
+  <br>
+  <form action="/inital_search" method="POST", target='_blank'>
 	<p>학과와 지역 입력 시, 알맞는 대학을 찾아드립니다! </p>
 	<br>
-
 	
    <!-- 학과 선택 드롭다운 -->
    <select name = "user_dept">
@@ -55,5 +72,36 @@
    <input onclick="alert('Data submitted');" type="submit" value="Submit">
 	<br>
 </form>
+</div>
+
+<div id="Reviews" class="tabcontent">
+  <h3>Search for Reviews.</h3>
+  <form action="/review_search" method="POST", target='_blank'>
+	<p>교환학생 결과 보고서를 찾아 보세요. </p>
+	<br>
+  </form>
+  <br>
+  <h3>Add/Delete Reviews.</h3>
+  <form action="/review_indel" method="POST", target='_blank'>
+	<p>교환학생 후기를 업로드하거나 삭제할 수 있습니다. </p>
+	<br>
+  </form>
+</div>
+
+<div id="Contact Info" class="tabcontent">
+  <h3>Contact Information of IO Coordinators</h3>
+  <form action="/io_search" method="POST", target='_blank'>
+	<p>교환학생 담당자 연락처를 찾아 보세요. </p>
+	<br>
+  </form>
+  <br>
+  <form action="/io_update" method="POST", target='_blank'>
+	<p>교환학생 담당자 연락처를 업데이트 할 수 있습니다. </p>
+	<br>
+  </form>
+  <p></p>
+</div>
+
+
 </body>
 </html>
