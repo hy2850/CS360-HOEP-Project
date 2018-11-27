@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
 <h1> HOEP - For KAIST exchange students </h1>
 
 <!-- Tab links -->
@@ -19,7 +18,7 @@
 </div>
 
 <!-- Tab content -->
-<div id="University" class="tabcontent">
+<div id="University" class="tabcontent" style="display:block">
   <h3>Search Universities.</h3>
   <br>
   <form action="/univ_search" method="POST", target='_blank'>
@@ -28,7 +27,7 @@
 	
    <!-- 학과 선택 드롭다운 -->
    <select name = "user_dept">
-		<option value='' selected> -- 학과 선택 -- </option>
+		<option value=0 selected> -- 학과 선택 -- </option>
 		<option value=1> Department of Aerospace Engineering </option>
 		<option value=2> Department of Bio and Brain Engineering </option>
 		<option value=3> Department of Biological Sciences </option>
@@ -60,7 +59,6 @@
    </script>
 
    <br>
-
    <input type="checkbox" onClick="toggle(this)"> 모든 지역 선택 <br/>
    <input type="checkbox" name="user_region" value=1> Asia <br/>
    <input type="checkbox" name="user_region" value=2> Hong Kong <br/>
@@ -135,7 +133,5 @@
   </form>
   <p></p>
 </div>
-
-
 </body>
 </html>
