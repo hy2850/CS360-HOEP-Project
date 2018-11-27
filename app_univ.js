@@ -25,6 +25,7 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 }));
 
 var queryStr = ""
+var updateStr = ""
 
 // "node app.js" running on port 3000
 app.listen(8000, function () {
@@ -40,11 +41,10 @@ app.get('/', function (req, res) {
 
 
 // get action to give raw data for user_tbl: "http://localhost/listAPI"
-app.post('/inital_search', function (req, res) {
+app.post('/univ_search', function (req, res) {
 	console.log(req.body); // log to the node.js server
 
 	// [Work-to-do] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
-	if (req.body.user_region.length == 0 & req.body.user_dept.value == '') {window.alert("Please select more than one condition.")}
 
 
 	// Construct queryStr
@@ -69,17 +69,10 @@ app.post('/inital_search', function (req, res) {
 	}else{
 		queryStr = queryStr.concat('= ', req.body.user_region[0])
 	}
-
-	/*
-	queryStr = 'SELECT Name, Univ_track FROM REQUEST1 WHERE RID = "'
-		+ req.body.user_region[0]
-		+ '" AND DID = "'
-		+ req.body.user_dept
-		+ '";';
-	*/
 	queryStr = queryStr + ') AS TMP WHERE Undergraduate = 1;'
 	res.sendFile(__dirname + "/result.html");
 });
+
 
 app.get('/listAPI', function (req, res) {
 	connection.query(queryStr, function (err, rows) {
@@ -87,6 +80,43 @@ app.get('/listAPI', function (req, res) {
 		res.send(rows);
 	})
 });
+
+
+// 2. REVIEW : SEARCH
+app.post('/review_search', function(req, res){
+	console.log(req.body); // log to the node.js server
+	queryStr = "SELECT Univ_name, Name, URL FROM FORMER_EXCHANGE WHERE Univ_name LIKE '%"
+		+ req.body.univ+ "%';"
+	res.sendFile(__dirname + "/review_search_result.html");
+});
+
+app.get('/review_search_API',function(req, res){
+	console.log(req.body);
+	connection.query(queryStr, function (err, rows) {
+			if (err) throw err;
+			res.send(rows);
+	});
+});
+
+// 2. REVIEW : INSERT
+app.post('/review_insert', function(req, res){
+	console.log(req.body); // log to the node.js server
+	queryStr = "SELECT Name FROM UNIVERSITY WHERE Name LIKE %"+req.body.univ+"%";
+	updateStr = "INSERT INTO FORMER_EXCHANGE VALUES ("+req.body.name+", "+req.body.autohr", "+req.body.URL+")";
+	res.sendFile(__dirname + "/review_search_result.html");
+});
+
+app.get('/review_insert_API',function(req, res){
+	connection.query(queryStr, function (err, rows) {
+			if (err) throw err;
+			if (length(rows) != 1) throw err;
+	});
+	conection.query(updateStr, function (err, result) {
+    	if (err) throw err;
+    	console.log("1 record inserted");
+  	});
+});
+
 
 function openTab(evt, section) {
     // Declare all variables

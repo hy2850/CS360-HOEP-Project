@@ -8,10 +8,7 @@
 <table id="mytable" border="1" cellspacing="3">
 	<tr>
 		<th>University</th>
-		<th>Track</th>
-		<th>Region</th>
-		<th>Language</th>
-		<th>TO</th>
+		<th>Writer</th>
 		<th>Review URL</th>
 	</tr>
 	<tbody></tbody>
@@ -28,17 +25,15 @@
 $(function( result) {
 	console.log( "ready!" );
 	$.ajax({
-		url: "/listAPI",
+		url: "/review_search_API",
 		success: function( result ) {
+			console.log(result)
 			for (var i in result){
 				var item = result[i];
 				$('#mytable > tbody:last').append('<tr>' + 
 					'<td>' + item.Univ_name + '</td>' + 
-					'<td>' + item.Dept + '</td>' + 
-					'<td>' + item.Region + '</td>' + 
-					'<td>' + item.Language_id + '</td>' + 
-					'<td>' + item.Available_number + '</td>' + 
-					'<td>' + item.URL + '</td>' 
+					'<td>' + item.Name + '</td>' + 
+					'<td><a href="' + item.URL + '" target="_blank">link</a></td>' 
 				);
 			}
 		}
