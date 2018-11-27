@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="result_pretty.css">
+</head>
+<body>
+
+<table id="mytable" border="1" cellspacing="3">
+	<tr>
+		<th>Region ID</th>
+		<th>Region</th>
+		<th>IO Coordinator name </th>
+		<th>Position </th>
+		<th>Tel </th>
+	</tr>
+	<tbody></tbody>
+</table>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script>
+
+
+
+$(function( result) {
+	console.log( "ready!" );
+	$.ajax({
+		url: "/io_search_API",
+		success: function( result ) {
+			for (var i in result){
+				var item = result[i];
+				$('#mytable > tbody:last').append('<tr>' +
+					'<td>' + item.RID + '</td>' +
+					'<td>' + item.Region + '</td>' +
+					'<td>' + item.Name + '</td>' +
+					'<td>' + item.Position + '</td>' +
+					'<td>' + item.Tel + '</td>'
+				);
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>
+
