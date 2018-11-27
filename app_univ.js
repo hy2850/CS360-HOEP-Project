@@ -102,7 +102,7 @@ app.get('/review_search_API',function(req, res){
 app.post('/review_insert', function(req, res){
 	console.log(req.body); // log to the node.js server
 	queryStr = "SELECT Name FROM UNIVERSITY WHERE Name LIKE %"+req.body.univ+"%";
-	updateStr = "INSERT INTO FORMER_EXCHANGE VALUES ("+req.body.name+", "+req.body.autohr", "+req.body.URL+")";
+	updateStr = "INSERT INTO FORMER_EXCHANGE VALUES ("+req.body.name+", "+req.body.author+", "+req.body.URL+")";
 	res.sendFile(__dirname + "/review_search_result.html");
 });
 
