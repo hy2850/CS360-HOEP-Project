@@ -30,10 +30,10 @@ $(function( result) {
 			console.log(result)
 			for (var i in result){
 				var item = result[i];
-				$('#mytable > tbody:last').append('<tr>' + 
-					'<td>' + item.Univ_name + '</td>' + 
-					'<td>' + item.Name + '</td>' + 
-					'<td><a href="' + item.URL + '" target="_blank">link</a></td>' 
+				$('#mytable > tbody:last').append('<tr>' +
+					'<td>' + item.Univ_name + '</td>' +
+					'<td>' + item.Name + '</td>' +
+					'<td><a href="' + item.URL + '" target="_blank">link</a></td>'
 				);
 			}
 		}

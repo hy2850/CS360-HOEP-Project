@@ -33,13 +33,13 @@ app.listen(8000, function () {
 });
 
 
-
 // base url action: "http://localhost/" -> send "index.html" file.
 app.get('/', function (req, res) {
 	res.sendFile(__dirname + "/homepage.html");
 });
 
 
+// Function 1. University Search - Search for foreign university using user's department and univ region
 // get action to give raw data for user_tbl: "http://localhost/listAPI"
 app.post('/univ_search', function (req, res) {
 	console.log(req.body); // log to the node.js server (CMD console에 이미지 띄우기 )
@@ -52,8 +52,10 @@ app.post('/univ_search', function (req, res) {
 	}
 
 	// Construct queryStr
-	queryStr = 'SELECT * FROM (SELECT DID, RID, Univ_name, Region, Dept, Language_id, Available_number, URL, UNDERGRADUATE FROM RESULT_VIEW WHERE DID = "'
-					+ req.body.user_dept + '" AND RID '
+	// Step 1. TRACK_N_UNIV 에서, user의 학과와 동일한 학과의 track이 존재하는 해외 대학의 UID를 추출한다.
+	// Step 2. 추출한 UID를 바탕으로, UNIVERSITY와 JOIN 하여, 해당되는 대학에 대한 정보와 해외 대학 학과명을 출력한다. 
+	queryStr =
+	'SELECT A.Name as Univ_name, B.Univ_track as Dept, A.Region, A.Language_id, A.Available_number FROM UNIVERSITY AS A INNER JOIN (SELECT UID, Univ_track FROM TRACK_N_UNIV WHERE DID = "' + req.body.user_dept + '" AND RID '
 
 	// Case 1. Multiple regions selected by user
 	if(req.body.user_region.length > 1){
@@ -73,11 +75,12 @@ app.post('/univ_search', function (req, res) {
 	}else{
 		queryStr = queryStr.concat('= ', req.body.user_region[0])
 	}
-	queryStr = queryStr + ') AS TMP WHERE Undergraduate = 1;'
+
+	queryStr = queryStr + ') AS B USING(UID) WHERE Undergraduate = 1;'
 	res.sendFile(__dirname + "/result.html");
 });
 
-
+// Fill in result.html with records acquired from DB using 'queryStr'
 app.get('/listAPI', function (req, res) {
 	connection.query(queryStr, function (err, rows) {
 		if (err) throw err;
@@ -86,7 +89,7 @@ app.get('/listAPI', function (req, res) {
 });
 
 
-// 2. REVIEW : SEARCH
+// Function 2-1. REVIEW SEARCH - Search for reviews written by other students using university name
 app.post('/review_search', function(req, res){
 	console.log(req.body); // log to the node.js server
 	queryStr = "SELECT Univ_name, Name, URL FROM FORMER_EXCHANGE WHERE Univ_name LIKE '%"
@@ -95,14 +98,14 @@ app.post('/review_search', function(req, res){
 });
 
 app.get('/review_search_API',function(req, res){
-	console.log(req.body);
 	connection.query(queryStr, function (err, rows) {
 			if (err) throw err;
 			res.send(rows);
 	});
 });
 
-// 2. REVIEW : INSERT
+
+// Function 2-2. REVIEW INSERT - Insert new reviews
 app.post('/review_insert', function(req, res){
 	console.log(req.body); // log to the node.js server
 	queryStr = "SELECT Name FROM UNIVERSITY WHERE Name LIKE %"+req.body.univ+"%";
@@ -121,6 +124,45 @@ app.get('/review_insert_API',function(req, res){
   	});
 });
 
+
+// Function 3-1. IO Coordinator + Region in charge - Show regions for program and each IO coordinators in charge of each region
+app.post('/io_search', function(req, res){
+	res.sendFile(__dirname + "/io_search_result.html");
+});
+
+app.get('/io_search_API', function(req, res){
+	connection.query("SELECT * FROM REGION_COORD;", function (err, rows) {
+			if (err) throw err;
+			res.send(rows);
+	});
+});
+
+
+// Function 3-2. Update IO Coordinator region (웹에서 간단하게 지역 담당 직원 변경. 직원 해고/고용으로 인한 직원 레코드 자체의 INSERT/DELETE는 구현안함)
+app.post('/io_update', function(req, res){
+	console.log(req.body); // log to the node.js server
+	
+	if (req.body.coord_CID <= 0 || req.body.coord_CID > 9 || req.body.region_CID <= 0 || req.body.region_CID > 10){
+		res.sendFile(__dirname + "/alert_box.html");
+		return
+	}
+
+	if(req.body.password === "1234"){
+		queryStr = "UPDATE Region SET CID = "+req.body.coord_CID+" WHERE RID = "+req.body.region_CID+";";
+		
+		console.log("Insert query: " + queryStr); // you may check the queryStr
+
+		connection.query(queryStr, function (err, rows) { // send query to MySQL
+			if (err) throw err;
+			console.log(rows); // log to check MySQL update result
+			res.sendFile(__dirname + "/success_box.html");  
+		})
+	} else {
+		// Wrong password error message
+		res.sendFile(__dirname + "/alert_wrong_password.html");
+		return
+	}
+});
 
 function openTab(evt, section) {
     // Declare all variables

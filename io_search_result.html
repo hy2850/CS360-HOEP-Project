@@ -7,11 +7,11 @@
 
 <table id="mytable" border="1" cellspacing="3">
 	<tr>
-		<th>University</th>
-		<th>Track</th>
+		<th>Region ID</th>
 		<th>Region</th>
-		<th>Language</th>
-		<th>TO</th>
+		<th>IO Coordinator name </th>
+		<th>Position </th>
+		<th>Tel </th>
 	</tr>
 	<tbody></tbody>
 </table>
@@ -27,16 +27,16 @@
 $(function( result) {
 	console.log( "ready!" );
 	$.ajax({
-		url: "/listAPI",
+		url: "/io_search_API",
 		success: function( result ) {
 			for (var i in result){
 				var item = result[i];
 				$('#mytable > tbody:last').append('<tr>' +
-					'<td>' + item.Univ_name + '</td>' +
-					'<td>' + item.Dept + '</td>' +
+					'<td>' + item.RID + '</td>' +
 					'<td>' + item.Region + '</td>' +
-					'<td>' + item.Language_id + '</td>' +
-					'<td>' + item.Available_number + '</td>'
+					'<td>' + item.Name + '</td>' +
+					'<td>' + item.Position + '</td>' +
+					'<td>' + item.Tel + '</td>'
 				);
 			}
 		}
