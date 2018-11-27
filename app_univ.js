@@ -45,7 +45,8 @@ app.post('/univ_search', function (req, res) {
 	console.log(req.body); // log to the node.js server
 
 	// [Work-to-do] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
-	
+
+
 	// Construct queryStr
 	queryStr = 'SELECT * FROM (SELECT DID, RID, Univ_name, Region, Dept, Language_id, Available_number, URL, UNDERGRADUATE FROM RESULT_VIEW WHERE DID = "'
 					+ req.body.user_dept + '" AND RID '
