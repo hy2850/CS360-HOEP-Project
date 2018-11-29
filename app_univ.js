@@ -55,7 +55,9 @@ app.post('/univ_search', function (req, res) {
 	// Step 1. TRACK_N_UNIV 에서, user의 학과와 동일한 학과의 track이 존재하는 해외 대학의 UID를 추출한다.
 	// Step 2. 추출한 UID를 바탕으로, UNIVERSITY와 JOIN 하여, 해당되는 대학에 대한 정보와 해외 대학 학과명을 출력한다. 
 	queryStr =
-	'SELECT A.Name as Univ_name, B.Univ_track as Dept, A.Region, A.Language_id, A.Available_number FROM UNIVERSITY AS A INNER JOIN (SELECT UID, Univ_track FROM TRACK_N_UNIV WHERE DID = "' + req.body.user_dept + '" AND RID '
+	'SELECT A.Name as Univ_name, B.Univ_track as Dept, A.Region, A.Language_id, A.Available_number FROM UNIVERSITY AS A INNER JOIN (SELECT UID, Univ_track FROM TRACK_N_UNIV '
+
+	updateStr = 'WHERE DID = ' + req.body.user_dept + ' AND RID '
 
 	// Case 1. Multiple regions selected by user
 	if(req.body.user_region.length > 1){
@@ -69,14 +71,19 @@ app.post('/univ_search', function (req, res) {
 		// https://stackoverflow.com/questions/36630230/replace-last-character-of-string-using-javascript
 		var region_str_set = region_str_set.replace(/.$/,")")
 
-		queryStr = queryStr.concat("IN ", region_str_set)
+		updateStr = updateStr.concat("IN ", region_str_set)
 
 	// Case 2. Only one region selected by user
 	}else{
-		queryStr = queryStr.concat('= ', req.body.user_region[0])
+		updateStr = updateStr.concat('= ', req.body.user_region[0])
 	}
 
-	queryStr = queryStr + ') AS B USING(UID) WHERE Undergraduate = 1;'
+	// console.log(updateStr)
+
+	queryStr = queryStr.concat(updateStr, ') AS B USING(UID) WHERE Undergraduate = 1;');
+
+	// console.log(queryStr)
+
 	res.sendFile(__dirname + "/result.html");
 });
 
@@ -88,6 +95,12 @@ app.get('/listAPI', function (req, res) {
 	})
 });
 
+app.get('/univ_num', function (req, res) {
+	connection.query("SELECT COUNT(*) AS Count FROM TRACK_N_UNIV " + updateStr, function (err, rows) {
+		if (err) throw err;
+		res.send(rows);
+	})
+});
 
 // Function 2-1. REVIEW SEARCH - Search for reviews written by other students using university name
 app.post('/review_search', function(req, res){
