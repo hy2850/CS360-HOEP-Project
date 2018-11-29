@@ -5,11 +5,17 @@
 </head>
 <body>
 
+
+<div class="univ_num-body">         
+    <p><b>Number of possible foreign tracks found :  </b><span id="view_univ_num" class="text-success"></span></p>
+</div>
+<br>
+
 <table id="mytable" border="1" cellspacing="3">
 	<tr>
 		<th>University</th>
 		<th>Track</th>
-		<th>Region</th>
+		<th>Region</th	>
 		<th>Language</th>
 		<th>TO</th>
 	</tr>
@@ -21,14 +27,11 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 <script>
-
-
-
 $(function( result) {
-	console.log( "ready!" );
 	$.ajax({
 		url: "/listAPI",
 		success: function( result ) {
+			//console.log(result)
 			for (var i in result){
 				var item = result[i];
 				$('#mytable > tbody:last').append('<tr>' +
@@ -43,6 +46,20 @@ $(function( result) {
 	});
 });
 </script>
+
+<script>
+$(function( result) {
+	$.ajax({
+		url: "/univ_num",
+		success: function( result ) {
+			 console.log(result)
+			 $("#view_univ_num").text(result[0].Count);
+			 console.log("success!")
+		}
+	});
+});
+</script>
+
 </body>
 </html>
 
