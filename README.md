@@ -9,3 +9,5 @@ CS360 Team 11
 2. mySQL에 root 계정으로 로그인 한 뒤, SOURCE C:/CS360-HOEP-Project/initial_db_construction.sql 명령 실행 (SQL 스크립트 실행) 
 3. CMD로 들어간 뒤, CS360-HOEP-Project 안에 있는 app_univ.js 실행 (node app_univ.js)
 4. Web상에서 localhost:8000 으로 들어가서, 원하는 명령 내려주면 결과를 볼 수 있음
+
+* HTML 파일들 한 곳에 정리해둬야 할 듯. 최종 단계.
