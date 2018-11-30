@@ -7,10 +7,8 @@
 
 <table id="mytable" border="1" cellspacing="3">
 	<tr>
-		<th>Region ID</th>
 		<th>Region</th>
 		<th>IO Coordinator name </th>
-		<th>Position </th>
 		<th>Tel </th>
 	</tr>
 	<tbody></tbody>
@@ -32,10 +30,8 @@ $(function( result) {
 			for (var i in result){
 				var item = result[i];
 				$('#mytable > tbody:last').append('<tr>' +
-					'<td>' + item.RID + '</td>' +
 					'<td>' + item.Region + '</td>' +
-					'<td>' + item.Name + '</td>' +
-					'<td>' + item.Position + '</td>' +
+					'<td>' + item.NAME + '</td>' +
 					'<td>' + item.Tel + '</td>'
 				);
 			}
