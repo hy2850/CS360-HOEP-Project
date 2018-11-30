@@ -96,6 +96,7 @@ FIELDS TERMINATED BY ','
 ignore 1 lines;
 
 # DID and RID 받아서, 사용자가 원하는 학교 찾기 (Simplest ver)
+DROP VIEW IF EXISTS REGION_COORD, TRACK_N_UNIV;
 CREATE VIEW TRACK_N_UNIV AS
 SELECT A.UID, A.DID, A.Univ_track, B.RID, B.Name
 FROM HAS_TRACK AS A
