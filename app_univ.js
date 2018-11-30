@@ -170,24 +170,35 @@ app.post('/review_insert', function(req, res){
 // Function 2-2. REVIEW DELETE - Insert new reviews
 app.post('/review_delete', function(req, res){
 	console.log(req.body); // log to the node.js server
-
-	connection.query("SELECT * FROM FORMER_EXCHANGE WHERE Univ_name='"+req.body.univ+"' AND Name='"+req.body.author+"';", function(err, rows){
-		if(err) throw err;
-		console.log(rows)
-		if (Object.keys(rows).length == 0){
+	queryStr = "SELECT UID, Name FROM UNIVERSITY WHERE Name LIKE '%"+req.body.univ+"%'";
+	connection.query(queryStr, function (err, rows, fields) {
+		if (err) throw err;
+		if (Object.keys(rows).length != 1) {
 			res.sendFile(__dirname + "/alert_box.html");
 			return
 		}
-		updateStr = "DELETE FROM FORMER_EXCHANGE WHERE Univ_name = '"+req.body.univ+
-	"' and Name = '"+req.body.author+"';"
-		console.log(updateStr);
-		connection.query(updateStr, function (err, rows) {
-			console.log(rows);
-	    	if (err) throw err;
-			console.log(rows); // log to check MySQL update result
-			res.sendFile(__dirname + "/success_box.html");  // Put success box on page
-			return
-	  	});
+		console.log(rows);
+		uid = rows[0].UID;
+		univName = rows[0].Name;
+		console.log(uid)
+		console.log(univName)
+		connection.query("SELECT * FROM FORMER_EXCHANGE WHERE UID='"+uid+"' AND Name='"+req.body.author+"';", function(err, rows){
+			if(err) throw err;
+			console.log(rows)
+			if (Object.keys(rows).length == 0){
+				res.sendFile(__dirname + "/alert_box.html");
+				return
+			}
+			updateStr = "DELETE FROM FORMER_EXCHANGE WHERE UID = '"+uid+"' and Name = '"+req.body.author+"';"
+			console.log(updateStr);
+			connection.query(updateStr, function (err, rows) {
+				console.log(rows);
+		    	if (err) throw err;
+				console.log(rows); // log to check MySQL update result
+				res.sendFile(__dirname + "/success_box.html");  // Put success box on page
+				return
+			});
+		});
 	});
 });
 
