@@ -121,20 +121,74 @@ app.get('/review_search_API',function(req, res){
 // Function 2-2. REVIEW INSERT - Insert new reviews
 app.post('/review_insert', function(req, res){
 	console.log(req.body); // log to the node.js server
-	queryStr = "SELECT Name FROM UNIVERSITY WHERE Name LIKE %"+req.body.univ+"%";
-	updateStr = "INSERT INTO FORMER_EXCHANGE VALUES ("+req.body.name+", "+req.body.author+", "+req.body.URL+")";
-	res.sendFile(__dirname + "/review_search_result.html");
+	queryStr = "SELECT UID, Name FROM UNIVERSITY WHERE Name LIKE '%"+req.body.univ+"%'";
+	var uid;
+	var univName;
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1; //January is 0!
+	var yyyy = today.getFullYear();
+	if(dd<10) dd = '0'+dd;
+	if(mm<10) mm = '0'+mm;
+	today = yyyy + '-' + mm + '-' + dd;
+	console.log(today)
+	connection.query(queryStr, function (err, rows, fields) {
+		if (err) throw err;
+		if (Object.keys(rows).length != 1) {
+			res.sendFile(__dirname + "/alert_box.html");
+			return
+		}
+		console.log(rows);
+		uid = rows[0].UID;
+		univName = rows[0].Name;
+		console.log(uid)
+		console.log(univName)
+
+		// INSERT to FORMER_EXCHANGE with selected values
+		connection.query("SELECT * FROM FORMER_EXCHANGE WHERE UID="+uid+" AND Name='"+req.body.author+"';", function(err, rows){
+			if(err) throw err;
+			console.log(rows)
+			if (Object.keys(rows).length >= 1){
+				res.sendFile(__dirname + "/alert_box.html");
+				return
+			}
+			updateStr = "INSERT INTO FORMER_EXCHANGE VALUES ("+uid +", '"+univName+"', '"+req.body.author+"', '"+
+	today+"', '"+req.body.URL+"')";
+			console.log(updateStr);
+			connection.query(updateStr, function (err, rows) {
+				console.log(rows);
+		    	if (err) throw err;
+				console.log(rows); // log to check MySQL update result
+				res.sendFile(__dirname + "/success_box.html");  // Put success box on page
+				return
+		  	});
+		});
+		
+	});	
 });
 
-app.get('/review_insert_API',function(req, res){
-	connection.query(queryStr, function (err, rows) {
-			if (err) throw err;
-			if (length(rows) != 1) throw err;
+// Function 2-2. REVIEW DELETE - Insert new reviews
+app.post('/review_delete', function(req, res){
+	console.log(req.body); // log to the node.js server
+
+	connection.query("SELECT * FROM FORMER_EXCHANGE WHERE Univ_name='"+req.body.univ+"' AND Name='"+req.body.author+"';", function(err, rows){
+		if(err) throw err;
+		console.log(rows)
+		if (Object.keys(rows).length == 0){
+			res.sendFile(__dirname + "/alert_box.html");
+			return
+		}
+		updateStr = "DELETE FROM FORMER_EXCHANGE WHERE Univ_name = '"+req.body.univ+
+	"' and Name = '"+req.body.author+"';"
+		console.log(updateStr);
+		connection.query(updateStr, function (err, rows) {
+			console.log(rows);
+	    	if (err) throw err;
+			console.log(rows); // log to check MySQL update result
+			res.sendFile(__dirname + "/success_box.html");  // Put success box on page
+			return
+	  	});
 	});
-	conection.query(updateStr, function (err, result) {
-    	if (err) throw err;
-    	console.log("1 record inserted");
-  	});
 });
 
 
