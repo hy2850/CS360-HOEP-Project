@@ -113,8 +113,8 @@ app.post('/lang_search', function(req,res){
 
 app.get('/lang_search_API',function(req, res){
 	connection.query(queryStr, function (err, rows) {
-			if (err) throw err;
-			res.send(rows);
+		if (err) throw err;
+		res.send(rows);
 	});
 });
 
