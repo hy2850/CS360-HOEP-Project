@@ -52,10 +52,11 @@ app.post('/univ_search', function (req, res) {
 	}
 
 	// Construct queryStr
-	// Step 1. TRACK_N_UNIV 에서, user의 학과와 동일한 학과의 track이 존재하는 해외 대학의 UID를 추출한다.
-	// Step 2. 추출한 UID를 바탕으로, UNIVERSITY와 JOIN 하여, 해당되는 대학에 대한 정보와 해외 대학 학과명을 출력한다. 
+	// Step 1. RID를 이용해 TRACK_N_UNIV를 REGION과 JOIN 한 후, 각 track에 대해 KAIST scholarship 액수를 retrieve한다.
+	// Step 2. TRACK_N_UNIV 에서, user의 학과와 동일한 학과의 track이 존재하는 해외 대학의 UID를 추출한다.
+	// Step 3. 추출한 UID를 바탕으로, UNIVERSITY와 JOIN 하여, 해당되는 대학에 대한 정보와 해외 대학 학과명을 출력한다.
 	queryStr =
-	'SELECT A.Name as Univ_name, B.Univ_track as Dept, A.Region, A.Language_id, A.Available_number FROM UNIVERSITY AS A INNER JOIN (SELECT UID, Univ_track FROM TRACK_N_UNIV '
+	'SELECT A.Name as Univ_name, B.Univ_track as Dept, A.Country_id, A.Language_id, A.Available_number, B.Scholarship FROM UNIVERSITY AS A INNER JOIN (SELECT TRACK_N_UNIV.UID as UID, TRACK_N_UNIV.Univ_track as Univ_track, REGION.KAIST_scholarship as Scholarship FROM (TRACK_N_UNIV INNER JOIN REGION USING (RID))'
 
 	updateStr = 'WHERE DID = ' + req.body.user_dept + ' AND RID '
 
@@ -82,7 +83,7 @@ app.post('/univ_search', function (req, res) {
 
 	queryStr = queryStr.concat(updateStr, ') AS B USING(UID) WHERE Undergraduate = 1;');
 
-	// console.log(queryStr)
+	//console.log(queryStr)
 
 	res.sendFile(__dirname + "/result.html");
 });
@@ -100,6 +101,21 @@ app.get('/univ_num', function (req, res) {
 		if (err) throw err;
 		res.send(rows);
 	})
+});
+
+// Function 1-2. LANGUAGE_CERTIFICATE SEARCH - Search for language prerequisite of target university
+app.post('/lang_search', function(req,res){
+	console.log(req.body);
+	queryStr = "SELECT A.Name, Type, B.Language_id as Language, Requisite FROM (UNIVERSITY AS A INNER JOIN LANGUAGE_CERTIFICATE AS B USING (UID)) WHERE A.Name LIKE '%"
+		+ req.body.univ + "%';"
+	res.sendFile(__dirname + "/lang_search_result.html");
+});
+
+app.get('/lang_search_API',function(req, res){
+	connection.query(queryStr, function (err, rows) {
+			if (err) throw err;
+			res.send(rows);
+	});
 });
 
 // Function 2-1. REVIEW SEARCH - Search for reviews written by other students using university name
@@ -167,7 +183,7 @@ app.post('/review_insert', function(req, res){
 	});	
 });
 
-// Function 2-2. REVIEW DELETE - Insert new reviews
+// Function 2-3. REVIEW DELETE - Insert new reviews
 app.post('/review_delete', function(req, res){
 	console.log(req.body); // log to the node.js server
 	queryStr = "SELECT UID, Name FROM UNIVERSITY WHERE Name LIKE '%"+req.body.univ+"%'";
