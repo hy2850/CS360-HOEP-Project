@@ -1,76 +1,76 @@
 UID,Name,Country_id,Language_id,Available_number,Undergraduate,Graduate,RID,Region
-1,Instituto Tecnologico de Buenos Aires,AR,ES,4,1,1,5,South America
-2,University of New South Wales,AU,EN,4,1,1,7,Australia
-3,University of Queensland,AU,EN,2,1,1,7,Australia
-4,RMIT(Royal Melbourne Institute of Technology),AU,EN,4,1,0,7,Australia
-5,University of Sydney,AU,EN,10,1,1,7,Australia
-6,Monash University,AU,EN,5,1,1,7,Australia
-7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],BE,FR,2,1,1,4,Europe
-8,Universiti Brunei Darussalam,BN,EN,2,1,1,1,Asia
-9,University of Waterloo,CA,EN,5,1,1,8,North America
-10,University of Toronto,CA,EN,1,1,1,8,North America
-11,Charles University in Prague,CZ,CS,1,1,1,4,Europe
-12,Czech Technical University in Prague,CZ,CS,10,1,1,4,Europe
-13,Technical University of Denmark (DTU),DK,DA,10,1,1,4,Europe
-14,Aalto University (technical schools),FI,EN,4,1,1,6,Scandinavia
-15,Aalto University (Aalto Arts),FI,EN,1,0,1,6,Scandinavia
-16,Tampere University of Technology (TUT),FI,EN,3,1,1,6,Scandinavia
-17,Ecole Polytechnique,FR,FR,0,1,1,4,Europe
-18,Arts Et Metiers ParisTech (ENSAM),FR,FR,3,1,1,4,Europe
-19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),FR,FR,3,1,1,4,Europe
-20,EFREI - Engineering School of Inforationa and Digital Technologies,FR,FR,3,1,1,4,Europe
-21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),FR,FR,8,1,1,4,Europe
-22,INSA Strasbourg,FR,FR,5,1,1,4,Europe
-23,INSA Toulouse,FR,FR,4,1,1,4,Europe
-24,INSA Rennes,FR,FR,5,1,1,4,Europe
-25,NEOMA Business School (Rouen Campus),FR,FR,3,1,1,4,Europe
-26,IMT Atlantique (Telecom de Bretagne),FR,FR,6,1,1,4,Europe
-27,Institute Mines-Telecom Business School (Telecom Ecole de Management),FR,FR,2,1,1,4,Europe
-28,University of Technology at Belfort-Montbeliard (UTBM),FR,FR,5,1,1,4,Europe
-29,University of Technology of Troyes (UTT),FR,FR,8,1,1,4,Europe
-30,Sorbonne Universite (University Pierre and Marie Curie),FR,FR,5,0,1,4,Europe
-31,Hochschule Furtwangen University(HFU),DE,DE,6,1,0,4,Europe
-32,Karlsruhe Institute of Technology (KIT),DE,DE,3,1,1,4,Europe
-33,RWTH Aachen University,DE,DE,2,1,1,4,Europe
-34,Technical University Munich (TUM),DE,DE,12,1,1,4,Europe
-35,Technical University of Berlin (TUB),DE,DE,5,1,1,4,Europe
-36,Technical University of Dortmund (TUD),DE,DE,2,1,1,4,Europe
-37,Technische Universitat Darmstadt (TU Darmstadt),DE,DE,5,1,1,4,Europe
-38,University of Stuttgart,DE,DE,3,1,1,4,Europe
-39,The University of Hong Kong,HK,EN,8,1,0,2,Hong Kong
-40,HKUST(School of Science),HK,EN,3,1,0,2,Hong Kong
-41,HKUST(School of Engineering),HK,EN,1,1,0,2,Hong Kong
-42,City University of Hong Kong,HK,EN,4,1,0,2,Hong Kong
-43,The Hong Kong Polytechnic University,HK,EN,6,1,0,2,Hong Kong
-44,The Chinese University of Hong Kong (Shenzen),HK,EN,5,1,1,2,Hong Kong
-45,Budapest University of Technology and Economics,HU,HU,3,1,1,4,Europe
-46,Polytechnic University of Milan,IT,IT,6,1,1,4,Europe
-47,Polytechnic University of Torino,IT,IT,5,1,1,4,Europe
-48,University of Trento,IT,IT,3,1,1,4,Europe
-49,Kyoto University,JP,EN,4,1,1,1,Asia
-50,Tokyo Institute of Technology,JP,EN,4,1,1,1,Asia
-51,Hokkaido University,JP,EN,2,1,0,1,Asia
-52,Tohoku University,JP,EN,5,1,1,1,Asia
-53,Kyushu University,JP,EN,2,1,0,1,Asia
-54,TU Delft (Delft University of Technology),NL,NL,8,1,1,4,Europe
-55,University of Twente,NL,NL,6,1,1,4,Europe
-56,Warsaw University of Technology,PL,PL,3,1,1,4,Europe
-57,NTU(Nanyang Technological University),SG,EN,5,1,1,3,Singapore
-58,NUS(National University of Singapore),SG,EN,6,1,0,3,Singapore
-59,Singapore University of Technology and Design,SG,EN,2,1,1,3,Singapore
-60,KTH Royal Institute of Technology,SE,SV,8,1,1,6,Scandinavia
-61,Linkoping University,SE,SV,8,1,1,6,Scandinavia
-62,Lund University,SE,SV,2,1,1,6,Scandinavia
-63,Uppsala University,SE,SV,3,1,1,6,Scandinavia
-64,Ecole Polytechnique Federale de Lausanne (EPFL),CH,FR,7,1,1,4,Europe
-65,Swiss Federal Institute of Technology Zurich (ETH Zurich),CH,EN,3,1,1,4,Europe
-66,Innopolis University,TR,EN,2,1,1,4,Europe
-67,Sabanci University,TR,EN,4,1,1,4,Europe
-68,Cardiff University,GB,EN,2,1,1,4,Europe
-69,University of Southampton,GB,EN,2,1,0,4,Europe
-70,University of Leeds,GB,EN,2,1,1,4,Europe
-71,Drexel University,US,EN,4,1,1,8,North America
-72,State University of New York at Stony Brook,US,EN,2,1,0,8,North America
-73,Northeastern University,US,EN,3,1,0,8,North America
-74,Georgia Institute of Technology,US,EN,4,1,0,8,North America
-75,Rice University,US,EN,1,1,0,8,North America
+1,Instituto Tecnologico de Buenos Aires,Argentina,Spanish,4,1,1,5,South America
+2,University of New South Wales,Austrailia,English,4,1,1,7,Australia
+3,University of Queensland,Austrailia,English,2,1,1,7,Australia
+4,RMIT(Royal Melbourne Institute of Technology),Austrailia,English,4,1,0,7,Australia
+5,University of Sydney,Austrailia,English,10,1,1,7,Australia
+6,Monash University,Austrailia,English,5,1,1,7,Australia
+7,Ecole Polytechnique de Louvain [Universite catholique de Louvain (UCL)],Belgium,French,2,1,1,4,Europe
+8,Universiti Brunei Darussalam,Brunei,English,2,1,1,1,Asia
+9,University of Waterloo,Canada,English,5,1,1,8,North America
+10,University of Toronto,Canada,English,1,1,1,8,North America
+11,Charles University in Prague,Czech Republic,Czech,1,1,1,4,Europe
+12,Czech Technical University in Prague,Czech Republic,Czech,10,1,1,4,Europe
+13,Technical University of Denmark (DTU),Denmark,Danish,10,1,1,4,Europe
+14,Aalto University (technical schools),Finland,English,4,1,1,6,Scandinavia
+15,Aalto University (Aalto Arts),Finland,English,1,0,1,6,Scandinavia
+16,Tampere University of Technology (TUT),Finland,English,3,1,1,6,Scandinavia
+17,Ecole Polytechnique,France,French,0,1,1,4,Europe
+18,Arts Et Metiers ParisTech (ENSAM),France,French,3,1,1,4,Europe
+19,Ecole Nationale Superieure des Mines de Saint-Etienne (EMSE),France,French,3,1,1,4,Europe
+20,EFREI - Engineering School of Inforationa and Digital Technologies,France,French,3,1,1,4,Europe
+21,Grenoble Institute of Technology (Insitut Polytechnique de Grenoble),France,French,8,1,1,4,Europe
+22,INSA Strasbourg,France,French,5,1,1,4,Europe
+23,INSA Toulouse,France,French,4,1,1,4,Europe
+24,INSA Rennes,France,French,5,1,1,4,Europe
+25,NEOMA Business School (Rouen Campus),France,French,3,1,1,4,Europe
+26,IMT Atlantique (Telecom de Bretagne),France,French,6,1,1,4,Europe
+27,Institute Mines-Telecom Business School (Telecom Ecole de Management),France,French,2,1,1,4,Europe
+28,University of Technology at Belfort-Montbeliard (UTBM),France,French,5,1,1,4,Europe
+29,University of Technology of Troyes (UTT),France,French,8,1,1,4,Europe
+30,Sorbonne Universite (University Pierre and Marie Curie),France,French,5,0,1,4,Europe
+31,Hochschule Furtwangen University(HFU),Germany,German,6,1,0,4,Europe
+32,Karlsruhe Institute of Technology (KIT),Germany,German,3,1,1,4,Europe
+33,RWTH Aachen University,Germany,German,2,1,1,4,Europe
+34,Technical University Munich (TUM),Germany,German,12,1,1,4,Europe
+35,Technical University of Berlin (TUB),Germany,German,5,1,1,4,Europe
+36,Technical University of Dortmund (TUD),Germany,German,2,1,1,4,Europe
+37,Technische Universitat Darmstadt (TU Darmstadt),Germany,German,5,1,1,4,Europe
+38,University of Stuttgart,Germany,German,3,1,1,4,Europe
+39,The University of Hong Kong,Hong Kong,English,8,1,0,2,Hong Kong
+40,HKUST(School of Science),Hong Kong,English,3,1,0,2,Hong Kong
+41,HKUST(School of Engineering),Hong Kong,English,1,1,0,2,Hong Kong
+42,City University of Hong Kong,Hong Kong,English,4,1,0,2,Hong Kong
+43,The Hong Kong Polytechnic University,Hong Kong,English,6,1,0,2,Hong Kong
+44,The Chinese University of Hong Kong (Shenzen),Hong Kong,English,5,1,1,2,Hong Kong
+45,Budapest University of Technology and Economics,Hungary,Hungarian,3,1,1,4,Europe
+46,Polytechnic University of Milan,Italy,Italian,6,1,1,4,Europe
+47,Polytechnic University of Torino,Italy,Italian,5,1,1,4,Europe
+48,University of Trento,Italy,Italian,3,1,1,4,Europe
+49,Kyoto University,Japan,English,4,1,1,1,Asia
+50,Tokyo Institute of Technology,Japan,English,4,1,1,1,Asia
+51,Hokkaido University,Japan,English,2,1,0,1,Asia
+52,Tohoku University,Japan,English,5,1,1,1,Asia
+53,Kyushu University,Japan,English,2,1,0,1,Asia
+54,TU Delft (Delft University of Technology),Netherlands,Dutch,8,1,1,4,Europe
+55,University of Twente,Netherlands,Dutch,6,1,1,4,Europe
+56,Warsaw University of Technology,Poland,Polish,3,1,1,4,Europe
+57,NTU(Nanyang Technological University),Singapore,English,5,1,1,3,Singapore
+58,NUS(National University of Singapore),Singapore,English,6,1,0,3,Singapore
+59,Singapore University of Technology and Design,Singapore,English,2,1,1,3,Singapore
+60,KTH Royal Institute of Technology,Sweden,Swedish,8,1,1,6,Scandinavia
+61,Linkoping University,Sweden,Swedish,8,1,1,6,Scandinavia
+62,Lund University,Sweden,Swedish,2,1,1,6,Scandinavia
+63,Uppsala University,Sweden,Swedish,3,1,1,6,Scandinavia
+64,Ecole Polytechnique Federale de Lausanne (EPFL),Switzerland,French,7,1,1,4,Europe
+65,Swiss Federal Institute of Technology Zurich (ETH Zurich),Switzerland,English,3,1,1,4,Europe
+66,Innopolis University,Russia,English,2,1,1,4,Europe
+67,Sabanci University,Turkey,English,4,1,1,4,Europe
+68,Cardiff University,United Kingdom,English,2,1,1,4,Europe
+69,University of Southampton,United Kingdom,English,2,1,0,4,Europe
+70,University of Leeds,United Kingdom,English,2,1,1,4,Europe
+71,Drexel University,United States,English,4,1,1,8,North America
+72,State University of New York at Stony Brook,United States,English,2,1,0,8,North America
+73,Northeastern University,United States,English,3,1,0,8,North America
+74,Georgia Institute of Technology,United States,English,4,1,0,8,North America
+75,Rice University,United States,English,1,1,0,8,North America

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="result_pretty.css">
+</head>
+<body>
+
+<div>         
+    <p><b>Found language requirements</b></p>
+</div>
+<br>
+
+<table id="mytable" border="1" cellspacing="3">
+	<tr>
+		<th>University</th>
+		<th>Language</th>
+		<th>Test type</th>
+		<th>Level / Score</th>
+	</tr>
+	<tbody></tbody>
+</table>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script>
+
+
+
+$(function( result) {
+	console.log( "ready!" );
+	$.ajax({
+		url: "/lang_search_API",
+		success: function( result ) {
+			console.log(result)
+			for (var i in result){
+				var item = result[i];
+				$('#mytable > tbody:last').append('<tr>' +
+					'<td>' + item.Name + '</td>' +
+					'<td>' + item.Language + '</td>' +
+					'<td>' + item.Type + '</td>' +
+					'<td>' + item.Requisite + '</td>'
+				);
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>
+

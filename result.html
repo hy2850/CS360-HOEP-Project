@@ -5,7 +5,6 @@
 </head>
 <body>
 
-
 <div class="univ_num-body">         
     <p><b>Number of possible foreign tracks found :  </b><span id="view_univ_num" class="text-success"></span></p>
 </div>
@@ -13,11 +12,12 @@
 
 <table id="mytable" border="1" cellspacing="3">
 	<tr>
-		<th>University</th>
+		<th><b>University</b></th>
 		<th>Track</th>
-		<th>Region</th	>
+		<th>Nation</th	>
 		<th>Language</th>
-		<th>TO</th>
+		<th>TO (per university)</th>
+		<th>Scholarship</th>
 	</tr>
 	<tbody></tbody>
 </table>
@@ -37,9 +37,10 @@ $(function( result) {
 				$('#mytable > tbody:last').append('<tr>' +
 					'<td>' + item.Univ_name + '</td>' +
 					'<td>' + item.Dept + '</td>' +
-					'<td>' + item.Region + '</td>' +
+					'<td>' + item.Country_id + '</td>' +
 					'<td>' + item.Language_id + '</td>' +
-					'<td>' + item.Available_number + '</td>'
+					'<td>' + item.Available_number + '</td>' +
+					'<td>' + "\\" + item.Scholarship + '</td>'
 				);
 			}
 		}

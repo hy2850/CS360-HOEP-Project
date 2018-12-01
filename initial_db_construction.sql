@@ -4,8 +4,8 @@ USE cs360_HOEP;
 CREATE TABLE IF NOT EXISTS UNIVERSITY (
 	UID INT PRIMARY KEY,
 	Name VARCHAR(100) NOT NULL,
-	Country_id VARCHAR(5),
-	Language_id VARCHAR(5),
+	Country_id VARCHAR(20),
+	Language_id VARCHAR(20),
 	Available_number INT NOT NULL,
 	Undergraduate INT NOT NULL,
 	Graduate INT NOT NULL,
@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS LANGUAGE_CERTIFICATE (
 	UID INT,
 	Univ_name VARCHAR(100) NOT NULL,
 	Type VARCHAR(10),
-	Language_id VARCHAR(2),
+	Language_id VARCHAR(20),
 	Requisite VARCHAR(5) NOT NULL,
 	PRIMARY KEY (UID, Type, Language_id)
 );
