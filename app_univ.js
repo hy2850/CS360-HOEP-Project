@@ -35,7 +35,7 @@ app.listen(8000, function () {
 
 // base url action: "http://localhost/" -> send "index.html" file.
 app.get('/', function (req, res) {
-	res.sendFile(__dirname + "/homepage.html");
+	res.sendFile(__dirname + "/HTML/homepage.html");
 });
 
 
@@ -47,7 +47,7 @@ app.post('/univ_search', function (req, res) {
 	// [수정 가능] "user_dept"와 "user_region"에 아무런 값을 입력하지 않는 경우 에러 띄우기
 	// res.sendFile로 새로운 페이지에 alert_box.html을 띄우는 것으로 구현했는데, 애초에 POST 액션 전에 메인 페이지에서 뜨게 하는 방법이 있으면 수정하기
 	if (req.body.user_dept == 0 || typeof req.body.user_region == "undefined"){
-		res.sendFile(__dirname + "/alert_box.html");
+		res.sendFile(__dirname + "/HTML/alert_box.html");
 		return
 	}
 
@@ -85,7 +85,7 @@ app.post('/univ_search', function (req, res) {
 
 	//console.log(queryStr)
 
-	res.sendFile(__dirname + "/result.html");
+	res.sendFile(__dirname + "/HTML/result.html");
 });
 
 // Fill in result.html with records acquired from DB using 'queryStr'
@@ -108,7 +108,7 @@ app.post('/lang_search', function(req,res){
 	console.log(req.body);
 	queryStr = "SELECT A.Name, Type, B.Language_id as Language, Requisite FROM (UNIVERSITY AS A INNER JOIN LANGUAGE_CERTIFICATE AS B USING (UID)) WHERE A.Name LIKE '%"
 		+ req.body.univ + "%';"
-	res.sendFile(__dirname + "/lang_search_result.html");
+	res.sendFile(__dirname + "/HTML/lang_search_result.html");
 });
 
 app.get('/lang_search_API',function(req, res){
@@ -123,7 +123,7 @@ app.post('/review_search', function(req, res){
 	console.log(req.body); // log to the node.js server
 	queryStr = "SELECT Univ_name, Name, URL FROM FORMER_EXCHANGE WHERE Univ_name LIKE '%"
 		+ req.body.univ+ "%';"
-	res.sendFile(__dirname + "/review_search_result.html");
+	res.sendFile(__dirname + "/HTML/review_search_result.html");
 });
 
 app.get('/review_search_API',function(req, res){
@@ -151,7 +151,7 @@ app.post('/review_insert', function(req, res){
 	connection.query(queryStr, function (err, rows, fields) {
 		if (err) throw err;
 		if (Object.keys(rows).length != 1) {
-			res.sendFile(__dirname + "/alert_box.html");
+			res.sendFile(__dirname + "/HTML/alert_box.html");
 			return
 		}
 		console.log(rows);
@@ -165,7 +165,7 @@ app.post('/review_insert', function(req, res){
 			if(err) throw err;
 			console.log(rows)
 			if (Object.keys(rows).length >= 1){
-				res.sendFile(__dirname + "/alert_box.html");
+				res.sendFile(__dirname + "/HTML/alert_box.html");
 				return
 			}
 			updateStr = "INSERT INTO FORMER_EXCHANGE VALUES ("+uid +", '"+univName+"', '"+req.body.author+"', '"+
@@ -175,12 +175,12 @@ app.post('/review_insert', function(req, res){
 				console.log(rows);
 		    	if (err) throw err;
 				console.log(rows); // log to check MySQL update result
-				res.sendFile(__dirname + "/success_box.html");  // Put success box on page
+				res.sendFile(__dirname + "/HTML/success_box.html");  // Put success box on page
 				return
 		  	});
 		});
-		
-	});	
+
+	});
 });
 
 // Function 2-3. REVIEW DELETE - Insert new reviews
@@ -190,7 +190,7 @@ app.post('/review_delete', function(req, res){
 	connection.query(queryStr, function (err, rows, fields) {
 		if (err) throw err;
 		if (Object.keys(rows).length != 1) {
-			res.sendFile(__dirname + "/alert_box.html");
+			res.sendFile(__dirname + "/HTML/alert_box.html");
 			return
 		}
 		console.log(rows);
@@ -202,7 +202,7 @@ app.post('/review_delete', function(req, res){
 			if(err) throw err;
 			console.log(rows)
 			if (Object.keys(rows).length == 0){
-				res.sendFile(__dirname + "/alert_box.html");
+				res.sendFile(__dirname + "/HTML/alert_box.html");
 				return
 			}
 			updateStr = "DELETE FROM FORMER_EXCHANGE WHERE UID = '"+uid+"' and Name = '"+req.body.author+"';"
@@ -211,7 +211,7 @@ app.post('/review_delete', function(req, res){
 				console.log(rows);
 		    	if (err) throw err;
 				console.log(rows); // log to check MySQL update result
-				res.sendFile(__dirname + "/success_box.html");  // Put success box on page
+				res.sendFile(__dirname + "/HTML/success_box.html");  // Put success box on page
 				return
 			});
 		});
@@ -221,7 +221,7 @@ app.post('/review_delete', function(req, res){
 
 // Function 3-1. IO Coordinator + Region in charge - Show regions for program and each IO coordinators in charge of each region
 app.post('/io_search', function(req, res){
-	res.sendFile(__dirname + "/io_search_result.html");
+	res.sendFile(__dirname + "/HTML/io_search_result.html");
 });
 
 app.get('/io_search_API', function(req, res){
@@ -235,26 +235,26 @@ app.get('/io_search_API', function(req, res){
 // Function 3-2. Update IO Coordinator region (웹에서 간단하게 지역 담당 직원 변경. 직원 해고/고용으로 인한 직원 레코드 자체의 INSERT/DELETE는 구현안함)
 app.post('/io_update', function(req, res){
 	console.log(req.body); // log to the node.js server
-	
+
 	// Invalid input for CID or RID → put alert box on page
 	if (req.body.coord_CID <= 0 || req.body.coord_CID > 9 || req.body.region_CID <= 0 || req.body.region_CID > 10){
-		res.sendFile(__dirname + "/alert_box.html");
+		res.sendFile(__dirname + "/HTML/alert_box.html");
 		return
 	}
 
 	if(req.body.password === "1234"){
 		queryStr = "UPDATE Region SET CID = "+req.body.coord_CID+" WHERE RID = "+req.body.region_CID+";";
-		
+
 		console.log("Insert query: " + queryStr); // you may check the queryStr
 
 		connection.query(queryStr, function (err, rows) { // send query to MySQL
 			if (err) throw err;
 			console.log(rows); // log to check MySQL update result
-			res.sendFile(__dirname + "/success_box.html");  // Put success box on page
+			res.sendFile(__dirname + "/HTML/success_box.html");  // Put success box on page
 		})
 	} else {
 		// Wrong password error message → put wrong password alert box on page
-		res.sendFile(__dirname + "/alert_wrong_password.html");
+		res.sendFile(__dirname + "/HTML/alert_wrong_password.html");
 		return
 	}
 });
