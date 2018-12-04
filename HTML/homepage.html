@@ -22,11 +22,11 @@
   <h2>Search for foreign university</h2>
   
   <form action="/univ_search" method="POST", target='_blank'>
-	<p>학과와 지역 입력 시, 알맞는 대학을 찾아드립니다! </p>
+	<p>Give us your KAIST department and region of interest, we'll find you the right partner universities! </p>
 	
    <!-- 학과 선택 드롭다운 -->
    <select name = "user_dept">
-		<option value=0 selected> -- 학과 선택 -- </option>
+		<option value=0 selected> -- Choose department -- </option>
 		<option value=1> Department of Aerospace Engineering </option>
 		<option value=2> Department of Bio and Brain Engineering </option>
 		<option value=3> Department of Biological Sciences </option>
@@ -58,7 +58,7 @@
    </script>
 
    <br>
-   <input type="checkbox" onClick="toggle(this)"> 모든 지역 선택 <br/>
+   <input type="checkbox" onClick="toggle(this)"> [Choose all regions] <br/>
    <input type="checkbox" name="user_region" value=1> Asia <br/>
    <input type="checkbox" name="user_region" value=2> Hong Kong <br/>
    <input type="checkbox" name="user_region" value=3> Singapore <br/>
@@ -76,7 +76,7 @@
 
 <h2>Check for language requirements</h2>
 <form action="/lang_search" method="POST", target='_blank'>
-	<p>각 대학이 요구하는 어학시험 기준을 열람할 수 있습니다. </p>
+	<p>You can check for language proficiency requirements of specific partner universities here.</p>
 	University name:  
 	<input type="text" name="univ" value="Rice">
 	<br>
@@ -91,7 +91,7 @@
   <h2>Search for exchange student program reviews</h2>
   
   <form action="/review_search" method="POST", target='_blank'>
-	<p>대학 이름만으로 교환학생 공식 후기를 쉽게 찾아 보세요! </p>
+	<p>Find former students' exchange reports by a single university name keyword!</p>
 		University name:  
 		<input type="text" name="univ" value="Ecole">
 		<br>
@@ -104,7 +104,7 @@
   <h2>Add/Delete Reviews</h2>
   
   <form action="/review_insert" method="POST", target='_blank'>
-	<p>교환학생을 막 마치셨다구요? 직접 새로운 후기를 업로드해 보세요! </p>
+	<p>Just finished an exchange semester? How about uploading your own review?</p>
 		University name:  
 		<input type="text" name="univ" value="Instituto Tecnologico de Buenos Aires">
 		<br>
@@ -120,7 +120,7 @@
   <br>
 
   <form action="/review_delete" method="POST", target='_blank'>
-	<p>작성한 교환학생 후기를 삭제할 수 있습니다. </p>
+	<p>Use this tab if you want to delete your exchange report.</p>
 		University name:  
 		<input type="text" name="univ" value="Instituto Tecnologico de Buenos Aires">
 		<br>
@@ -137,7 +137,7 @@
   <h2>Contact Information of IO Coordinators</h2>
 
   <form action="/io_search" method="POST", target='_blank'>
-	<p>각 지역 교환학생 담당자의 연락처를 한눈에 볼 수 있습니다. </p>
+	<p>You can browse the contact info. of KAIST IO coordinators in a single page, with a single click.</p>
 	<input type="submit" value="Show">
 	<br>
   </form>
@@ -147,17 +147,17 @@
   <h2>Update IO Coordinators assigned to the region</h2>
 
   <form action="/io_update" method="POST", target='_blank'>
-	<p>지역을 담당하는 교환학생 담당자를 변경할 수 있습니다. (관리자 비밀번호 필요) </p>
+	<p>You can update any region's IO coordinator of duty. (Password needed)</p>
 
-	지역 ID :
+	Region ID :
 	<input type="text" name="region_CID" value="">
 	<br>	
 
-	새로 지역을 담당할 담당자 ID :
+	Newly assigned coordinator's ID :
 	<input type="text" name="coord_CID" value="">
 	<br>
 
-	관리자 비밀번호 :  
+	Password : 
 	<input type="text" name="password" value="">
 	<br>
 
